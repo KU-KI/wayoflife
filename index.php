@@ -216,7 +216,7 @@ h5,
   
 <div class="bg indigo">
   <h1>Welcome at</h1>
-  <div class="domain white indigo-text z-depth-1">www.wayoflife.azurewebsites.net</div>
+  <div class="domain white indigo-text z-depth-1">wayoflife.azurewebsites.net</div>
 </div>
 <div class="container white z-depth-1 anim-0">
   <div class="row">
