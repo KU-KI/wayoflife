@@ -228,7 +228,7 @@ h5,
       <div class="construction-img circle yellow darken-1 c-img">
         <div class="anim-icon"><i class="material-icons build grey-text text-darken-4">build</i></div>
       </div>
-      <h5 class="center">coming soon...</h5>
+      <h5 class="center">coming soon..</h5>
     </div>
   </div>
 </div>
