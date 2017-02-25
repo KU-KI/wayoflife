@@ -35,7 +35,7 @@ $config['base_url'] = 'http://wayoflife.azurewebsites.net/';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
