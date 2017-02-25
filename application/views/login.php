@@ -42,8 +42,9 @@
                     <div class="col-lg-12 text-center">
                         <img class="img-thumbnail" data-src="holder.js/140x140" alt="140x140" src="https://graph.facebook.com/<?=$user_profile['id']?>/picture?type=large" style="width: 140px; height: 140px;">
                         <h2><?=$user_profile['name']?></h2>
-                        <a href="<?= $logout_url ?>" class="btn btn-lg btn-primary btn-block" role="button">Logout</a>
-                    </div>
+                            <h2><?=$user_profile['email']?></h2>
+                                <a href="<?= $logout_url ?>" class="btn btn-lg btn-primary btn-block" role="button">Logout</a>
+</div>
                 </div>
             <?php else: ?>
                 <h2 class="form-signin-heading">Login with Facebook</h2>
