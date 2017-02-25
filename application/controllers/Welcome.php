@@ -25,11 +25,11 @@ class Welcome extends CI_Controller {
 
         if ($user) {
 
-            $data['logout_url'] = site_url('index.php/welcome/logout');
+            $data['logout_url'] = site_url('welcome/logout');
 
         } else {
             $data['login_url'] = $this->facebook->getLoginUrl(array(
-                'redirect_uri' => site_url('index.php/welcome/login'),
+                'redirect_uri' => site_url('welcome/login'),
                 'scope' => array("email")
             ));
         }
@@ -43,7 +43,7 @@ class Welcome extends CI_Controller {
 
         $this->facebook->destroySession();
 
-        redirect('index.php/welcome/login');
+        redirect('welcome/login');
     }
 
     public function index()
