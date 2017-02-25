@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -22,6 +23,7 @@
     <Compile Include="application\config\constants.php" />
     <Compile Include="application\config\database.php" />
     <Compile Include="application\config\doctypes.php" />
+    <Compile Include="application\config\facebook.php" />
     <Compile Include="application\config\foreign_chars.php" />
     <Compile Include="application\config\hooks.php" />
     <Compile Include="application\config\index.html" />
@@ -39,6 +41,8 @@
     <Compile Include="application\hooks\index.html" />
     <Compile Include="application\language\english\index.html" />
     <Compile Include="application\language\index.html" />
+    <Compile Include="application\libraries\base_facebook.php" />
+    <Compile Include="application\libraries\facebook.php" />
     <Compile Include="application\libraries\index.html" />
     <Compile Include="application\logs\index.html" />
     <Compile Include="application\models\index.html" />
@@ -57,6 +61,7 @@
     <Compile Include="application\views\errors\html\index.html" />
     <Compile Include="application\views\errors\index.html" />
     <Compile Include="application\views\index.html" />
+    <Compile Include="application\views\login.php" />
     <Compile Include="application\views\welcome_message.php" />
     <Compile Include="application\.htaccess" />
     <Compile Include="application\index.html" />
@@ -537,5 +542,8 @@
     <Folder Include="user_guide\_static\js" />
     <Folder Include="user_guide\_static" />
     <Folder Include="user_guide" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="application\libraries\fb_ca_chain_bundle.crt" />
   </ItemGroup>
 </Project>
