@@ -52,9 +52,6 @@
             <?php endif; ?>
             <a href="https://github.com/puneetkay/Facebook-PHP-CodeIgniter" class="btn btn-lg btn-success btn-block" target="_blank" role="button">View Source on Github</a>
 
-            <div class="footer">
-                <p>With <i class="fa fa-heart"></i> by <a href='http://puneetk.com/' target="_blank" title="Puneet Kalra">Puneet Kalra</a>.</p>
-            </div>
         </form>
 
     </div> <!-- /container -->
