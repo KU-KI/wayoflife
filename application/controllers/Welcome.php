@@ -25,7 +25,7 @@ class Welcome extends CI_Controller {
 
         if ($user) {
 
-            $data['logout_url'] = site_url('index.php/welcome/logout'); 
+            $data['logout_url'] = site_url('index.php/welcome/logout');
 
         } else {
             $data['login_url'] = $this->facebook->getLoginUrl(array(
@@ -45,6 +45,11 @@ class Welcome extends CI_Controller {
 
         redirect('index.php/welcome/login');
     }
+
+    public function index()
+	{
+		$this->load->view('welcome_message');
+	}
 
 }
 
