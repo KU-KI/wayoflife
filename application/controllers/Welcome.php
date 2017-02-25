@@ -20,7 +20,7 @@ class Welcome extends CI_Controller {
         //    ));
 
 		$user = $this->facebook->getUser();
-        
+
         if ($user) {
             try {
                 $data['user_profile'] = $this->facebook->api('/me');
@@ -34,14 +34,14 @@ class Welcome extends CI_Controller {
 
         if ($user) {
 
-            $data['logout_url'] = site_url('welcome/logout'); // Logs off application
-            // OR 
+            $data['logout_url'] = site_url('index.php/welcome/logout'); // Logs off application
+            // OR
             // Logs off FB!
             // $data['logout_url'] = $this->facebook->getLogoutUrl();
 
         } else {
             $data['login_url'] = $this->facebook->getLoginUrl(array(
-                'redirect_uri' => site_url('welcome/login'), 
+                'redirect_uri' => site_url('index.php/welcome/login'),
                 'scope' => array("email") // permissions here
             ));
         }
@@ -57,7 +57,7 @@ class Welcome extends CI_Controller {
         $this->facebook->destroySession();
         // Make sure you destory website session as well.
 
-        redirect('welcome/login');
+        redirect('index.php/welcome/login');
     }
 
 }
