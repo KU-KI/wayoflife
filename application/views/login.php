@@ -57,23 +57,6 @@
             </div>
         </form>
 
-        <div class="text-center">
-            <div style="margin-top: 30px;">
-                <iframe src="http://ghbtns.com/github-btn.html?user=puneetkay&repo=Facebook-PHP-CodeIgniter&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe> 
-                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://puneetk.com/facebook-php-codeigniter/" data-via="puneetkay">Tweet</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                <div class="g-plusone" data-size="medium" data-href="http://puneetk.com/facebook-php-codeigniter/"></div>
-                <script type="text/javascript">
-                    (function() {
-                        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                        po.src = 'https://apis.google.com/js/plusone.js';
-                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-                    })();
-                </script>
-                <script id='fbop8ca'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=puneet.kay&button=compact&url=http%3A%2F%2Fpuneetk.com%2Ffacebook-php-codeigniter%2F';f.title='Flattr';f.height=20;f.width=110;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fbop8ca');</script>
-            </div>
-        </div>
-
     </div> <!-- /container -->
     <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 </body>
