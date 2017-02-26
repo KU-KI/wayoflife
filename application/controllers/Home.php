@@ -46,8 +46,8 @@ class Home extends CI_Controller {
         redirect('home/login');
     }
 
-    public function index($page = 'home')
-    {
+    public function index($page = 'home'){
+
         if ( ! file_exists(APPPATH.'views/pages/'.$page.'.php'))
         {
             show_404();
@@ -85,7 +85,6 @@ class Home extends CI_Controller {
                 'scope' => array("email")
             ));
         }
-        $this->load->view('login',$data);
 
     }
 
