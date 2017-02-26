@@ -11,6 +11,7 @@
             <input type="text" placeholder="Používateľské meno" />
             <input type="password" placeholder="Heslo" />
             <button>Prihlásiť sa </button>
+            <button>Alebo skús FACEBOOK</button>
         </form>
     </div>
     <div class="form">
@@ -20,6 +21,7 @@
             <input type="password" placeholder="Heslo" />
             <input type="email" placeholder="E-mail" />
             <button>Registrovať</button>
+            <button>Alebo skús FACEBOOK</button>
         </form>
     </div>
     <div class="cta">
