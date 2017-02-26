@@ -14,7 +14,7 @@
     <div class="row">
         <div class="col-md-4 col-md-offset-4">
             <div class="module form-module thanks">
-                <h2>Túto časť môže vidieť jedine prihlásený! <?php echo $this->session->userdata('username'); ?><?php echo anchor('user/logout', 'Logout'); ?></h2>
+                <h2>Túto časť môže vidieť jedine prihlásený! <?php echo $this->session->userdata('user_name'); ?><?php echo anchor('user/logout', 'Logout'); ?></h2>
             </div>
         </div>
     </div>
