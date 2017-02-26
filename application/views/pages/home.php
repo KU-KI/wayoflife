@@ -10,7 +10,7 @@
         <form>
             <input type="text" placeholder="Používateľské meno" />
             <input type="password" placeholder="Heslo" />
-            <button>Prihlásiť sa </button>
+            <button>prihlásiť sa </button>
             <?php if (@$user_profile): ?>
             <?php else: ?>
                 <a href="<?= $login_url ?>" class="btn btn-lg btn-primary btn-block facebook" role="button">... facebook</a>
@@ -23,7 +23,7 @@
             <input type="text" placeholder="Používateľské meno" />
             <input type="password" placeholder="Heslo" />
             <input type="email" placeholder="E-mail" />
-            <button>Registrovať</button>
+            <button>registrovať</button>
             <?php if (@$user_profile): ?>
             <?php else: ?>
             <a href="<?= $login_url ?>" class="btn btn-lg btn-primary btn-block facebook" role="button">... facebook</a>
