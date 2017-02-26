@@ -39,6 +39,32 @@ class Home extends CI_Controller {
 	}
     public function welcome($page = 'welcome')
     {
+        $this->load->library('facebook');
+
+		$user = $this->facebook->getUser();
+
+        if ($user) {
+            try {
+                $data['user_profile'] = $this->facebook->api('/me');
+            }
+            catch (FacebookApiException $e) {
+                $user = null;
+            }
+        }else {
+
+        }
+
+        if ($user) {
+
+            $data['logout_url'] = site_url('home/logout');
+
+        } else {
+            $data['login_url'] = $this->facebook->getLoginUrl(array(
+                'redirect_uri' => site_url('home/welcome'),
+                'scope' => array("email")
+            ));
+        }
+
         $data['title'] = ucfirst($page);
         $this->load->view('templates/header', $data);
         $this->load->view('pages/'.$page, $data);
