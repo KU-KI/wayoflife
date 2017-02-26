@@ -497,6 +497,7 @@
     <Folder Include="application\views\assets\css\" />
     <Folder Include="application\views\assets\fonts\" />
     <Folder Include="application\views\assets\js\" />
+    <Folder Include="application\views\assets\img\" />
     <Folder Include="application\views\errors\cli" />
     <Folder Include="application\views\errors\html" />
     <Folder Include="application\views\errors" />
@@ -567,6 +568,7 @@
     <Content Include="application\views\assets\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="application\views\assets\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="application\views\assets\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="application\views\assets\img\nru3wc.jpg" />
     <Content Include="application\views\assets\js\bootstrap.js" />
     <Content Include="application\views\assets\js\bootstrap.min.js" />
     <Content Include="application\views\assets\js\npm.js" />
