@@ -1,4 +1,4 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');?>
+Ôªø<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');?>
 
 <div class="module form-module">
     <div class="toggle">
@@ -6,20 +6,20 @@
         <div class="tooltip">Click Me</div>
     </div>
     <div class="form">
-        <h2>Prihl·si? sa do ˙?tu</h2>
+        <h2>Prihl√°si≈• sa do √∫ƒçtu</h2>
         <form>
-            <input type="text" placeholder="PouûÌvate?skÈ meno" />
+            <input type="text" placeholder="Pou≈æ√≠vateƒæsk√© meno" />
             <input type="password" placeholder="Heslo" />
-            <button>Prihl·si? sa </button>
+            <button>Prihl√°si≈• sa </button>
         </form>
     </div>
     <div class="form">
-        <h2>Vytvorenie ˙?tu</h2>
+        <h2>Vytvorenie √∫?tu</h2>
         <form>
-            <input type="text" placeholder="PouûÌvate?skÈ meno" />
+            <input type="text" placeholder="Pou≈æ√≠vateƒæsk√© meno" />
             <input type="password" placeholder="Heslo" />
             <input type="email" placeholder="E-mail" />
-            <button>Registrova?</button>
+            <button>Registrova≈•</button>
         </form>
     </div>
     <div class="cta">
