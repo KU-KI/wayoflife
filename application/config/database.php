@@ -79,7 +79,7 @@ $db['default'] = array(
 	'username' => 'b1f5a0707ed7d6',
 	'password' => '89ac8c94',
 	'database' => 'wayoflife',
-	'dbdriver' => 'mysql',
+	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
