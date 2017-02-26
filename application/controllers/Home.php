@@ -7,43 +7,13 @@ class Home extends CI_Controller {
         $this->load->helper('url');
 	}
 
-	public function login(){
-
-		$this->load->library('facebook');
-
-		$user = $this->facebook->getUser();
-
-        if ($user) {
-            try {
-                $data['user_profile'] = $this->facebook->api('/me');
-            } catch (FacebookApiException $e) {
-                $user = null;
-            }
-        }else {
-
-        }
-
-        if ($user) {
-
-            $data['logout_url'] = site_url('home/logout');
-
-        } else {
-            $data['login_url'] = $this->facebook->getLoginUrl(array(
-                'redirect_uri' => site_url('home/login'),
-                'scope' => array("email")
-            ));
-        }
-        $this->load->view('login',$data);
-
-	}
-
     public function logout(){
 
         $this->load->library('facebook');
 
         $this->facebook->destroySession();
 
-        redirect('home/login');
+        redirect('');
     }
 
     public function index($page = 'home')
@@ -69,7 +39,7 @@ class Home extends CI_Controller {
 
         } else {
             $data['login_url'] = $this->facebook->getLoginUrl(array(
-                'redirect_uri' => site_url('home/login'),
+                'redirect_uri' => site_url(''),
                 'scope' => array("email")
             ));
         }
