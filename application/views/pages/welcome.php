@@ -1,13 +1,10 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
 <?php if (@$user_profile or $this->session->userdata('user_name')!= NULL):
-if ($user_profile['name'] == NULL):
-    $name=$this->session->userdata('user_name');
-    $user_profile=0;
+if (@$user_profile):
+$name=$this->session->userdata('user_name');
 else:
-    $name=$user_profile['name'];
+$name=$user_profile['name'];
 endif;
-
-
 ?>
 <div class="container text-center">
     <h1>Way of life</h1>
