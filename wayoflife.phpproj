@@ -65,7 +65,6 @@
     <Compile Include="application\views\pages\home.php" />
     <Compile Include="application\views\templates\footer.php" />
     <Compile Include="application\views\templates\header.php" />
-    <Compile Include="application\views\welcome_message.php" />
     <Compile Include="application\.htaccess" />
     <Compile Include="application\index.html" />
     <Compile Include="system\core\compat\hash.php" />
