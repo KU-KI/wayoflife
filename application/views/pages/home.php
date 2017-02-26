@@ -31,9 +31,9 @@ else:
                 <div class="form">
                     <h2>Vytvorenie účtu</h2>
                     <form>
-                        <input type="text" placeholder="Používateľské meno" />
-                        <input type="password" placeholder="Heslo" />
-                        <input type="email" placeholder="E-mail" />
+                        <input type="text" id="user_name" name="user_name" value="<?php echo set_value('user_name'); ?>" />
+                        <input type="password" id="password" name="password" value="<?php echo set_value('password'); ?>" />
+                        <input type="text" id="email_address" name="email_address" value="<?php echo set_value('email_address'); ?>" />
                         <button>registrovať</button>
 
                         <a href="<?= $login_url ?>" class="btn btn-lg btn-primary btn-block facebook" role="button">... facebook</a>
