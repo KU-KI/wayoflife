@@ -1,5 +1,5 @@
 <?php
-class home extends CI_Controller
+class home_c extends CI_Controller
 {
 	public function __construct()
 	{
