@@ -62,6 +62,7 @@
     <Compile Include="application\views\errors\index.html" />
     <Compile Include="application\views\index.html" />
     <Compile Include="application\views\login.php" />
+    <Compile Include="application\views\pages\home.php" />
     <Compile Include="application\views\welcome_message.php" />
     <Compile Include="application\.htaccess" />
     <Compile Include="application\index.html" />
@@ -497,6 +498,7 @@
     <Folder Include="application\views\errors" />
     <Folder Include="application\views" />
     <Folder Include="application" />
+    <Folder Include="application\views\pages\" />
     <Folder Include="system\core\compat" />
     <Folder Include="system\core" />
     <Folder Include="system\database\drivers\cubrid" />
