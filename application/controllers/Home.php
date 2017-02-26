@@ -50,17 +50,6 @@ class Home extends CI_Controller {
     {
         $this->load->library('facebook');
 
-        if ( ! file_exists(APPPATH.'views/pages/'.$page.'.php'))
-        {
-            show_404();
-        }
-
-        $data['title'] = ucfirst($page);
-
-        $this->load->view('templates/header', $data);
-        $this->load->view('pages/'.$page, $data);
-        $this->load->view('templates/footer', $data);
-
         $user = $this->facebook->getUser();
 
         if ($user) {
@@ -84,6 +73,18 @@ class Home extends CI_Controller {
                 'scope' => array("email")
             ));
         }
+
+        if ( ! file_exists(APPPATH.'views/pages/'.$page.'.php'))
+        {
+            show_404();
+        }
+
+        $data['title'] = ucfirst($page);
+
+        $this->load->view('templates/header', $data);
+        $this->load->view('pages/'.$page, $data);
+        $this->load->view('templates/footer', $data);
+
     }
 
 }
