@@ -561,6 +561,7 @@
     <Content Include="application\views\assets\css\bootstrap.css.map" />
     <Content Include="application\views\assets\css\bootstrap.min.css" />
     <Content Include="application\views\assets\css\bootstrap.min.css.map" />
+    <Content Include="application\views\assets\css\style.css" />
     <Content Include="application\views\assets\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="application\views\assets\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="application\views\assets\fonts\glyphicons-halflings-regular.ttf" />
