@@ -30,7 +30,7 @@ class Home extends CI_Controller {
 
         } else {
             $data['login_url'] = $this->facebook->getLoginUrl(array(
-                'redirect_uri' => site_url('home/login_fb'),
+                'redirect_uri' => site_url('home/welcome'),
                 'scope' => array("email")
             ));
         }
@@ -93,7 +93,7 @@ class Home extends CI_Controller {
 
         } else {
             $data['login_url'] = $this->facebook->getLoginUrl(array(
-                'redirect_uri' => site_url('home/login'),
+                'redirect_uri' => site_url('home/welcome'),
                 'scope' => array("email")
             ));
         }
