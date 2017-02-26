@@ -46,7 +46,9 @@ class Home extends CI_Controller {
         redirect('home/login');
     }
 
-    public function index($page = 'home'){
+    public function index($page = 'home')
+    {
+        $this->load->library('facebook');
 
         if ( ! file_exists(APPPATH.'views/pages/'.$page.'.php'))
         {
@@ -59,10 +61,7 @@ class Home extends CI_Controller {
         $this->load->view('pages/'.$page, $data);
         $this->load->view('templates/footer', $data);
 
-
-		$this->load->library('facebook');
-
-		$user = $this->facebook->getUser();
+        $user = $this->facebook->getUser();
 
         if ($user) {
             try {
@@ -85,7 +84,6 @@ class Home extends CI_Controller {
                 'scope' => array("email")
             ));
         }
-
     }
 
 }
