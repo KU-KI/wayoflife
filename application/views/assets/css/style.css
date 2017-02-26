@@ -1,10 +1,11 @@
 body {
   background: url('../img/nru3wc.jpg');
-  color: #666666;
+  color: #fff;
   font-family: 'RobotoDraft', 'Roboto', sans-serif;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding:50px 0;
 }
 /* Form Module */
 .form-module {
@@ -15,6 +16,7 @@ body {
   border-top: 5px solid #33b5e5;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   margin: 50px auto;
+  color: #666666;
 }
 .form-module .toggle {
   cursor: pointer;
