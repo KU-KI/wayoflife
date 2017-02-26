@@ -26,11 +26,11 @@ class Home extends CI_Controller {
 
         if ($user) {
 
-            $data['logout_url'] = site_url('home/logout');
+            $data['logout_url'] = site_url('home/logout_fb');
 
         } else {
             $data['login_url'] = $this->facebook->getLoginUrl(array(
-                'redirect_uri' => site_url('home/login'),
+                'redirect_uri' => site_url('home/login_fb'),
                 'scope' => array("email")
             ));
         }
@@ -53,7 +53,7 @@ class Home extends CI_Controller {
         if($result) $this->welcome();
         else        $this->index();
     }
-    public function logout(){
+    public function logout_fb(){
 
         $this->load->library('facebook');
 
