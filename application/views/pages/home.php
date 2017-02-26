@@ -7,6 +7,7 @@ if (@$user_profile):
 else: 
 
 ?>
+<div class="container text-center"><h1>Way of life</h1></div>
 <div class="module form-module">
     <div class="toggle">
         <i class="fa fa-times fa-pencil"></i>
