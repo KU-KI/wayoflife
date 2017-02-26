@@ -46,9 +46,18 @@ class Home extends CI_Controller {
         redirect('welcome/login');
     }
 
-    public function index()
+    public function index($page = 'home')
 	{
-		$this->load->view('welcome_message');
+        if ( ! file_exists(APPPATH.'/views/pages/'.$page.'.php'))
+        {
+            show_404();
+        }
+
+        $data['title'] = ucfirst($page);
+
+        $this->load->view('templates/header', $data);
+        $this->load->view('pages/'.$page, $data);
+        $this->load->view('templates/footer', $data);
 	}
 
 }
