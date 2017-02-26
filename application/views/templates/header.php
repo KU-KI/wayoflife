@@ -9,8 +9,13 @@
     <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
     <link href="<?php echo base_url("application/views/assets/css/bootstrap.css"); ?>" rel="stylesheet">
     <link href="<?php echo base_url("application/views/assets/css/style.css"); ?>" rel="stylesheet">
+
+    <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900|RobotoDraft:400,100,300,500,700,900'>
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
