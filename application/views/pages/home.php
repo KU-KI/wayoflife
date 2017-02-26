@@ -1,4 +1,4 @@
-﻿<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');?>
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');?>
 
 <div class="module form-module">
     <div class="toggle">
@@ -11,7 +11,11 @@
             <input type="text" placeholder="Používateľské meno" />
             <input type="password" placeholder="Heslo" />
             <button>prihlásiť sa </button>
-            <?php if (@$user_profile): ?>
+            <?php if (@$user_profile):
+
+            redirect('home/login');
+
+            ?>
             <?php else: ?>
                 <a href="<?= $login_url ?>" class="btn btn-lg btn-primary btn-block facebook" role="button">... facebook</a>
             <?php endif; ?>
