@@ -2,6 +2,7 @@
 <?php if (@$user_profile or $this->session->userdata('user_name')!= NULL):
 if ($user_profile['name'] == NULL):
     $name=$this->session->userdata('user_name');
+    $user_profile=0;
 else:
     $name=$user_profile['name'];
 endif;
