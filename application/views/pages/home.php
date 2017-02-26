@@ -16,7 +16,7 @@ else:
             <div class="module form-module">
                 <div class="toggle">
                     <i class="fa fa-times fa-pencil"></i>
-                    <div class="tooltip">Click Me</div>
+                    
                 </div>
                 <div class="form">
                     <h2>Prihlásiť sa do účtu</h2>
