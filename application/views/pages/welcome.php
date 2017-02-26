@@ -1,6 +1,6 @@
 ﻿<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-      if (@$user_profile):
+      if (@$user_profile or $this->session->userdata('user_name')):
 
           redirect('home/login');
 
