@@ -49,7 +49,6 @@ class Home extends CI_Controller {
     public function index($page = 'home')
     {
         $this->load->library('facebook');
-
         $user = $this->facebook->getUser();
 
         if ($user) {
@@ -61,6 +60,17 @@ class Home extends CI_Controller {
             }
         }else {
 
+        }
+
+        if ($user) {
+
+            $data['logout_url'] = site_url('');
+
+        } else {
+            $data['login_url'] = $this->facebook->getLoginUrl(array(
+                'redirect_uri' => site_url(''),
+                'scope' => array("email")
+            ));
         }
 
         if ( ! file_exists(APPPATH.'views/pages/'.$page.'.php'))
