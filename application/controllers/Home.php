@@ -95,12 +95,12 @@ class Home extends CI_Controller {
 
         if($this->form_validation->run() == FALSE)
         {
-            $this->index();
+            
         }
         else
         {
             $this->user_model->add_user();
-            $this->thank();
+            
         }
     }
 
