@@ -34,8 +34,12 @@
     <Compile Include="application\config\routes.php" />
     <Compile Include="application\config\smileys.php" />
     <Compile Include="application\config\user_agents.php" />
+    <Compile Include="application\controllers\home_c.php" />
     <Compile Include="application\controllers\index.html" />
     <Compile Include="application\controllers\Home.php" />
+    <Compile Include="application\controllers\login.php" />
+    <Compile Include="application\controllers\profile.php" />
+    <Compile Include="application\controllers\signup.php" />
     <Compile Include="application\core\index.html" />
     <Compile Include="application\helpers\index.html" />
     <Compile Include="application\hooks\index.html" />
@@ -46,6 +50,7 @@
     <Compile Include="application\libraries\index.html" />
     <Compile Include="application\logs\index.html" />
     <Compile Include="application\models\index.html" />
+    <Compile Include="application\models\user_model.php" />
     <Compile Include="application\third_party\index.html" />
     <Compile Include="application\views\errors\cli\error_404.php" />
     <Compile Include="application\views\errors\cli\error_db.php" />
@@ -60,9 +65,13 @@
     <Compile Include="application\views\errors\html\error_php.php" />
     <Compile Include="application\views\errors\html\index.html" />
     <Compile Include="application\views\errors\index.html" />
+    <Compile Include="application\views\home_view.php" />
     <Compile Include="application\views\index.html" />
     <Compile Include="application\views\login.php" />
+    <Compile Include="application\views\login_view.php" />
     <Compile Include="application\views\pages\home.php" />
+    <Compile Include="application\views\profile_view.php" />
+    <Compile Include="application\views\signup_view.php" />
     <Compile Include="application\views\templates\footer.php" />
     <Compile Include="application\views\templates\header.php" />
     <Compile Include="application\.htaccess" />
