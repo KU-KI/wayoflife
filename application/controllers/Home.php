@@ -46,7 +46,7 @@ class Home extends CI_Controller {
         redirect('welcome/login');
     }
 
-    public function index($page = 'home')
+    public function index($page = 'index_page')
 	{
         if ( ! file_exists(APPPATH.'/views/pages/'.$page.'.php'))
         {
