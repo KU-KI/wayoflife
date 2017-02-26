@@ -13,7 +13,7 @@
             <button>Prihlásiť sa </button>
             <?php if (@$user_profile): ?>
             <?php else: ?>
-                <a href="<?= $login_url ?>" class="btn btn-lg btn-primary btn-block facebook" role="button">Login</a>
+                <a href="<?= $login_url ?>" class="btn btn-lg btn-primary btn-block facebook" role="button">... Facebook</a>
             <?php endif; ?>
         </form>
     </div>
@@ -24,7 +24,10 @@
             <input type="password" placeholder="Heslo" />
             <input type="email" placeholder="E-mail" />
             <button>Registrovať</button>
-            <button>Alebo skús FACEBOOK</button>
+            <?php if (@$user_profile): ?>
+            <?php else: ?>
+            <a href="<?= $login_url ?>" class="btn btn-lg btn-primary btn-block facebook" role="button">... Facebook</a>
+            <?php endif; ?>
         </form>
     </div>
     <div class="cta">
