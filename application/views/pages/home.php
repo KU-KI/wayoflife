@@ -30,6 +30,7 @@
             <?php endif; ?>
         </form>
     </div>
+
     <div class="cta">
         <a rel="nofollow" rel="noreferrer" href="#">Zabudol si heslo?</a>
     </div>
