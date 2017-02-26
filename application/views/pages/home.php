@@ -6,24 +6,23 @@
         <div class="tooltip">Click Me</div>
     </div>
     <div class="form">
-        <h2>Login to your account</h2>
+        <h2>Prihlási? sa do ú?tu</h2>
         <form>
-            <input type="text" placeholder="Username" />
-            <input type="password" placeholder="Password" />
-            <button>Login</button>
+            <input type="text" placeholder="Používate?ské meno" />
+            <input type="password" placeholder="Heslo" />
+            <button>Prihlási? sa </button>
         </form>
     </div>
     <div class="form">
-        <h2>Create an account</h2>
+        <h2>Vytvorenie ú?tu</h2>
         <form>
-            <input type="text" placeholder="Username" />
-            <input type="password" placeholder="Password" />
-            <input type="email" placeholder="Email Address" />
-            <input type="tel" placeholder="Phone Number" />
-            <button>Register</button>
+            <input type="text" placeholder="Používate?ské meno" />
+            <input type="password" placeholder="Heslo" />
+            <input type="email" placeholder="E-mail" />
+            <button>Registrova?</button>
         </form>
     </div>
     <div class="cta">
-        <a rel="nofollow" rel="noreferrer" href="#">Forgot your password?</a>
+        <a rel="nofollow" rel="noreferrer" href="#">Zabudol si heslo?</a>
     </div>
 </div>
