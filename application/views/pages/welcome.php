@@ -1,10 +1,10 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
 <?php if (@$user_profile or $this->session->userdata('user_name')!= NULL):
-if ($user_profile['name'] == NULL){
+if ($user_profile['name'] == NULL):
     $name=$this->session->userdata('user_name');
-}esle{
+else:
     $name=$user_profile['name'];
- }
+endif;
 
 
 ?>
