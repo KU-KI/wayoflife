@@ -1,5 +1,5 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
-
+<?php if (@$user_profile or $this->session->userdata('user_name')!= NULL): ?>
 <div class="container text-center">
     <h1>Way of life</h1>
 </div>
@@ -12,3 +12,10 @@
         </div>
     </div>
 </div>
+<?php
+else:
+
+    redirect('');
+
+endif;
+?>
