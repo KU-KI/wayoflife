@@ -12,7 +12,7 @@ else:
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-md-5 col-md-offset-5">
+        <div class="col-md-4 col-md-offset-4">
             <div class="module form-module">
                 <div class="toggle">
                     <i class="fa fa-times fa-pencil"></i>
