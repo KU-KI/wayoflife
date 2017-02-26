@@ -68,6 +68,7 @@
     <Compile Include="application\views\login.php" />
     <Compile Include="application\views\pages\home.php" />
     <Compile Include="application\views\pages\thank.php" />
+    <Compile Include="application\views\pages\welcome.php" />
     <Compile Include="application\views\registration_view.php" />
     <Compile Include="application\views\templates\footer.php" />
     <Compile Include="application\views\templates\header.php" />

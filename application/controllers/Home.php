@@ -37,6 +37,13 @@ class Home extends CI_Controller {
         $this->load->view('login',$data);
 
 	}
+    public function welcome($page = 'welcome')
+    {
+        $data['title'] = ucfirst($page);
+        $this->load->view('templates/header', $data);
+        $this->load->view('pages/'.$page, $data);
+        $this->load->view('templates/footer', $data);
+    }
     public function login()
     {
         $email=$this->input->post('email');
