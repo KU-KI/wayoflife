@@ -1,4 +1,4 @@
-﻿body {
+body {
   background: #e9e9e9;
   color: #666666;
   font-family: 'RobotoDraft', 'Roboto', sans-serif;
@@ -107,4 +107,8 @@
 .form-module .cta a {
   color: #333333;
   text-decoration: none;
+}
+.facebook {
+    border-radius:0;
+    font-size:14px;
 }

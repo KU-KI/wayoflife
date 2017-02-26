@@ -13,7 +13,7 @@
             <button>Prihlásiť sa </button>
             <?php if (@$user_profile): ?>
             <?php else: ?>
-                <a href="<?= $login_url ?>" class="btn btn-lg btn-primary btn-block" role="button">Login</a>
+                <a href="<?= $login_url ?>" class="btn btn-lg btn-primary btn-block facebook" role="button">Login</a>
             <?php endif; ?>
         </form>
     </div>
