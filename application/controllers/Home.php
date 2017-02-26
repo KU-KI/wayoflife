@@ -53,11 +53,20 @@ class Home extends CI_Controller {
         if($result) $this->welcome();
         else        $this->index();
     }
-    public function logout_fb(){
+    public function logout(){
 
         $this->load->library('facebook');
 
         $this->facebook->destroySession();
+
+        $newdata = array(
+        'user_id'   =>'',
+        'user_name'  =>'',
+        'user_email'     => '',
+        'logged_in' => FALSE,
+        );
+        $this->session->unset_userdata($newdata );
+        $this->session->sess_destroy();
 
         redirect('');
     }
