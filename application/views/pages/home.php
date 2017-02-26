@@ -14,7 +14,7 @@
         </form>
     </div>
     <div class="form">
-        <h2>Vytvorenie ú?tu</h2>
+        <h2>Vytvorenie účtu</h2>
         <form>
             <input type="text" placeholder="Používateľské meno" />
             <input type="password" placeholder="Heslo" />
