@@ -15,12 +15,13 @@
         <div class="col-md-4 col-md-offset-4">
             <div class="module form-module thanks">
                 <h2>Ďakujeme za registráciu!</h2>
+                <?php $this->output->set_header('refresh:3; url='.site_url("")); ?>
             </div>
         </div>
     </div>
 </div>
 <?php
 
-      endif;
+endif;
 
 ?>
