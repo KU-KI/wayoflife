@@ -62,7 +62,7 @@
     <Compile Include="application\views\errors\index.html" />
     <Compile Include="application\views\index.html" />
     <Compile Include="application\views\pages\login.php" />
-    <Compile Include="application\views\pages\index_page.php" />
+    <Compile Include="application\views\pages\page_index.php" />
     <Compile Include="application\.htaccess" />
     <Compile Include="application\index.html" />
     <Compile Include="application\views\templates\footer.php" />
