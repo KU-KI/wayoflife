@@ -11,7 +11,7 @@
             <input type="text" placeholder="Používateľské meno" />
             <input type="password" placeholder="Heslo" />
             <button>Prihlásiť sa </button>
-            <button>Alebo skús FACEBOOK</button>
+            <a href="<?= $login_url ?>" class="btn btn-lg btn-primary btn-block" role="button">Alebo skús FACEBOOK</a>
         </form>
     </div>
     <div class="form">

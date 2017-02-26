@@ -50,15 +50,43 @@ class Home extends CI_Controller {
     {
         if ( ! file_exists(APPPATH.'views/pages/'.$page.'.php'))
         {
-            // Whoops, we don't have a page for that!
             show_404();
         }
 
-        $data['title'] = ucfirst($page); // Capitalize the first letter
+        $data['title'] = ucfirst($page);
 
         $this->load->view('templates/header', $data);
         $this->load->view('pages/'.$page, $data);
         $this->load->view('templates/footer', $data);
+
+
+		$this->load->library('facebook');
+
+		$user = $this->facebook->getUser();
+
+        if ($user) {
+            try {
+                $data['user_profile'] = $this->facebook->api('/me');
+            }
+            catch (FacebookApiException $e) {
+                $user = null;
+            }
+        }else {
+
+        }
+
+        if ($user) {
+
+            $data['logout_url'] = site_url('home/logout');
+
+        } else {
+            $data['login_url'] = $this->facebook->getLoginUrl(array(
+                'redirect_uri' => site_url('home/login'),
+                'scope' => array("email")
+            ));
+        }
+        $this->load->view('login',$data);
+
     }
 
 }
