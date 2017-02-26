@@ -8,7 +8,7 @@ class Home extends CI_Controller {
         $this->load->model('user_model');
 	}
 
-	public function login(){
+	public function login_fb(){
 
 		$this->load->library('facebook');
 
@@ -37,7 +37,15 @@ class Home extends CI_Controller {
         $this->load->view('login',$data);
 
 	}
+    public function login()
+    {
+        $email=$this->input->post('email');
+        $password=md5($this->input->post('pass'));
 
+        $result=$this->user_model->login($email,$password);
+        if($result) $this->welcome();
+        else        $this->index();
+    }
     public function logout(){
 
         $this->load->library('facebook');

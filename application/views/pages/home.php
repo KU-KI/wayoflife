@@ -20,12 +20,12 @@ else:
                 </div>
                 <div class="form">
                     <h2>Prihlásiť sa do účtu</h2>
-                    <form>
-                        <input type="text" placeholder="Používateľské meno" />
-                        <input type="password" placeholder="Heslo" />
-                        <button>prihlásiť sa </button>
+                    <?php echo form_open("user/login"); ?>
+                        <input type="text" id="email" name="email" value="" placeholder="E-mail" />
+                        <input type="password" id="pass" name="pass" value="" placeholder="Heslo" />
+                        <input type="submit" class="" value="Sign in" />
                         <a href="<?= $login_url ?>" class="btn btn-lg btn-primary btn-block facebook" role="button">... facebook</a>
-                    </form>
+                    <?php echo form_close(); ?>
                 </div>
 
                 <div class="form">
