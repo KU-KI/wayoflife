@@ -26,7 +26,7 @@ class Home extends CI_Controller {
 
         if ($user) {
 
-            $data['logout_url'] = site_url('home/logout_fb');
+            $data['logout_url'] = site_url('home/logout');
 
         } else {
             $data['login_url'] = $this->facebook->getLoginUrl(array(
