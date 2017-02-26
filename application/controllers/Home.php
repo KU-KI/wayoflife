@@ -86,6 +86,13 @@ class Home extends CI_Controller {
         $this->load->view('templates/footer', $data);
 
     }
+    public function thank($page = 'thank')
+    {
+        $data['title'] = ucfirst($page);
+        $this->load->view('templates/header', $data);
+        $this->load->view('pages/'.$page, $data);
+        $this->load->view('templates/footer', $data);
+    }
     public function registration()
     {
         $this->load->library('form_validation');
