@@ -11,7 +11,20 @@
             <input type="text" placeholder="Používateľské meno" />
             <input type="password" placeholder="Heslo" />
             <button>Prihlásiť sa </button>
-            <a href="<?= $login_url ?>" class="btn btn-lg btn-primary btn-block" role="button">Alebo skús FACEBOOK</a>
+            <?php if (@$user_profile): ?>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <img class="img-thumbnail" data-src="holder.js/140x140" alt="140x140" src="https://graph.facebook.com/<?=$user_profile['id']?>/picture?type=large" style="width: 140px; height: 140px;" />
+                    <h2>
+                        <?=$user_profile['name']?>
+                    </h2>
+                    <a href="<?= $logout_url ?>" class="btn btn-lg btn-primary btn-block" role="button">Logout</a>
+                </div>
+            </div>
+            <?php else: ?>
+            <h2 class="form-signin-heading">Login with Facebook</h2>
+            <a href="<?= $login_url ?>" class="btn btn-lg btn-primary btn-block" role="button">Login</a>
+            <?php endif; ?>
         </form>
     </div>
     <div class="form">
