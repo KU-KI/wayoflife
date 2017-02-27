@@ -57,7 +57,7 @@
                     <li class="active">
                         <a href="dashboard.html">
                             <i class="ti-panel"></i>
-                            <?php echo $user_profile['name']; ?><?php echo $this->session->userdata('user_name'); ?><?php echo anchor('home/logout', 'Odhlásiť'); ?>
+                            <p>Dashboard</p>
                         </a>
                     </li>
                     <li>
@@ -116,7 +116,7 @@
                             <span class="icon-bar bar2"></span>
                             <span class="icon-bar bar3"></span>
                         </button>
-                        <a class="navbar-brand" href="#">Dashboard</a>
+                        <?php echo $user_profile['name']; ?><?php echo $this->session->userdata('user_name'); ?><?php echo anchor('home/logout', 'Odhlásiť'); ?>
                     </div>
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
