@@ -116,7 +116,7 @@
                             <span class="icon-bar bar2"></span>
                             <span class="icon-bar bar3"></span>
                         </button>
-                        <?php echo $user_profile['name']; ?><?php echo $this->session->userdata('user_name'); ?><?php echo anchor('home/logout', 'Odhlásiť'); ?>
+                        <div class="navbar-brand"><?php echo $user_profile['name']; ?><?php echo $this->session->userdata('user_name'); ?><?php echo anchor('home/logout', 'Odhlásiť'); ?></div>
                     </div>
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
@@ -421,7 +421,6 @@
 </script>
 
 </html>
-
 <?php
 else:
 
