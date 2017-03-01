@@ -52,7 +52,7 @@ else:
                 </div>
 
                 <div class="cta">
-                    <a rel="nofollow" rel="noreferrer" href="http://trpaslici.azurewebsites.net/">Stránka developerov</a>
+                    <a rel="nofollow" rel="noreferrer" href="http://trpaslici.azurewebsites.net/" target="_blank">Stránka developerov</a>
                 </div>
             </div>
         </div>
