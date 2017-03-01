@@ -13,7 +13,12 @@ else:
 <div class="container">
     <div class="row col-md-offset-3">
         <div class="col-md-4 nopadding">
-            <div class="module form-module">test</div>
+            <div class="module form-module">
+                <h2>Zdravíme ťa!</h2>
+                <p>Na úvod si prečítajte, na čo slúži táto aplikácia.</p>
+                <p>Aplikácia slúži na podporu a pomoc ľuďom pri tvorbe ich denného jedálnička, pri kontrole a podobných záležitostí spojené s správnou životosprávou.</p>
+                <p>Po prihlásení sa v zobrazí administračné prostredie pre tvoje poznámky, kalkulačku a rôzne utility, ktoré vám v tomto smere pomôžu.</p>
+            </div>
         </div>
         <div class="col-md-4 nopadding">
             <div class="module form-module">
