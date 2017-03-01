@@ -11,7 +11,7 @@ else:
     <h1>Way of life</h1>
 </div>
 <div class="container">
-    <div class="row col-md-offset-2">
+    <div class="row col-md-offset-3">
         <div class="col-md-4 nopadding">
             <div class="module form-module">test</div>
         </div>
