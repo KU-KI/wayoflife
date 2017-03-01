@@ -48,8 +48,8 @@
 
             <div class="sidebar-wrapper">
                 <div class="logo">
-                    <a href="http://www.creative-tim.com" class="simple-text">
-                        Creative Tim
+                    <a href="#" class="simple-text">
+                        Way of life
                     </a>
                 </div>
 
@@ -116,7 +116,7 @@
                             <span class="icon-bar bar2"></span>
                             <span class="icon-bar bar3"></span>
                         </button>
-                        <div class="navbar-brand"><?php echo $user_profile['name']; ?><?php echo $this->session->userdata('user_name'); ?><?php echo anchor('home/logout', 'Odhlásiť'); ?></div>
+                        <div class="navbar-brand"><?php echo anchor('home/logout', 'Odhlásiť'); ?></div>
                     </div>
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
@@ -346,31 +346,11 @@
 
             <footer class="footer">
                 <div class="container-fluid">
-                    <nav class="pull-left">
-                        <ul>
-
-                            <li>
-                                <a href="http://www.creative-tim.com">
-                                    Creative Tim
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://blog.creative-tim.com">
-                                    Blog
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://www.creative-tim.com/license">
-                                    Licenses
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
                     <div class="copyright pull-right">
                         &copy;
                         <script>document.write(new Date().getFullYear())</script>, made with
                         <i class="fa fa-heart heart"></i>by
-                        <a href="http://www.creative-tim.com">Creative Tim</a>
+                        <a href="#">Trpaslici</a>
                     </div>
                 </div>
             </footer>
@@ -410,7 +390,7 @@
 
         	$.notify({
             	icon: 'ti-gift',
-            	message: "Welcome to <b>Paper Dashboard</b> - a beautiful Bootstrap freebie for your next project."
+            	message: "Welcome <?php echo $user_profile['name']; ?><?php echo $this->session->userdata('user_name'); ?>!"
 
             },{
                 type: 'success',
