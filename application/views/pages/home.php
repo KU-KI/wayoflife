@@ -12,7 +12,7 @@ else:
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-md-4 nopadding">
+        <div class="col-md-4 nopadding col-md-offset-2">
             <div class="module form-module">test</div>
         </div>
         <div class="col-md-4 nopadding">
