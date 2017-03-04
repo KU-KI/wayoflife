@@ -1,2 +1,0 @@
-# wayoflife
-School project
