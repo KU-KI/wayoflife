@@ -33,7 +33,6 @@ class Home extends CI_Controller {
                 'redirect_uri' => site_url('home/account'),
                 'scope' => array("email")
             ));
-            redirect('home/account');
         }
         $this->load->view('login',$data);
 
