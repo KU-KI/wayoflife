@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-      class Login extends CI_Controller {
+      class Index extends CI_Controller {
 
           public function __construct(){
               parent::__construct();
@@ -98,7 +98,7 @@
               redirect('');
           }
 
-          public function index($page = 'login')
+          public function index($page = 'index')
           {
               $this->load->library('facebook');
               $user = $this->facebook->getUser();
