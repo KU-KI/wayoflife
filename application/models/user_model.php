@@ -25,7 +25,7 @@
                   $this->session->set_userdata($newdata);
                   return true;
               }else{
-                  echo 'Niekde nastala chyba, skús to znova';
+                  echo '<div style="position:absolute; top:0; width:100%; line-height:50px; background:rgba(192, 57, 43,1.0);" >Nikde nastala chyba, skús to znova</div>';
                   return false;
               }
           }
