@@ -1,5 +1,8 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
-<?php if (@$user_profile or $this->session->userdata('user_name')!= NULL): ?>
+<?php if (@$user_profile or $this->session->userdata('user_name')!= NULL):
+<?php if (@$user_profile){$user=$user_profile['name'];}esle{$user=$this->session->userdata('user_name');}?>
+
+?>
 
 
 <!doctype html>
@@ -116,7 +119,7 @@
                             <span class="icon-bar bar2"></span>
                             <span class="icon-bar bar3"></span>
                         </button>
-                        <div class="navbar-brand"><?php echo anchor('home/logout', 'Odhlásiť'); ?></div>
+                        <div class="navbar-brand"><?php echo $user; ?><?php echo anchor('home/logout', 'Odhlásiť'); ?></div>
                     </div>
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
@@ -390,7 +393,7 @@
 
         	$.notify({
             	icon: 'ti-gift',
-            	message: "Welcome <?php echo $user_profile['name']; ?><?php echo $this->session->userdata('user_name'); ?>!"
+            	message: "Welcome !"
 
             },{
                 type: 'success',
