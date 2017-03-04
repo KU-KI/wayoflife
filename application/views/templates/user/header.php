@@ -67,16 +67,10 @@ if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userd
                             <p>Tabuľky hodnôt</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <i class="ti-text"></i>
-                            <p>Poznámky</p>
-                        </a>
-                    </li>
                     <li class="active-pro">
-                        <a href="#">
+                        <a href="http://trpaslici.azurewebsites.net/">
                             <i class="ti-export"></i>
-                            <p>Chcem viac</p>
+                            <p>Web developers</p>
                         </a>
                     </li>
                 </ul>
