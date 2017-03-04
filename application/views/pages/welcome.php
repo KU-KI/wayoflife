@@ -117,7 +117,7 @@ if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userd
                             <span class="icon-bar bar2"></span>
                             <span class="icon-bar bar3"></span>
                         </button>
-                        <div class="navbar-brand"><?php echo $user; ?><?php echo anchor('home/logout', 'Odhlásiť'); ?></div>
+                        <div class="navbar-brand"><?php echo anchor('home/logout', 'Odhlásiť'); ?></div>
                     </div>
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
@@ -391,7 +391,7 @@ if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userd
 
         	$.notify({
             	icon: 'ti-gift',
-            	message: "Welcome !"
+            	message: "Welcome <?php echo $user; ?>!"
 
             },{
                 type: 'success',
