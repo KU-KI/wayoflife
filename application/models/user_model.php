@@ -24,8 +24,10 @@
                   }
                   $this->session->set_userdata($newdata);
                   return true;
+              }else{
+                  echo 'Niekde nastala chyba, skús to znova';
+                  return false;
               }
-              return false;
           }
           public function add_user()
           {
