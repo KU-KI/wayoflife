@@ -2,8 +2,6 @@
 <?php if (@$user_profile or $this->session->userdata('user_name')!= NULL):
 if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userdata('user_name');endif;?>
 
-?>
-
 
 <!doctype html>
 <html lang="en">
