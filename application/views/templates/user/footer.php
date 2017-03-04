@@ -1,5 +1,5 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
-<?php if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userdata('user_name');endif; ?>
+ <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
            <footer class="footer">
                 <div class="container-fluid">
                     <div class="copyright pull-right">
@@ -36,5 +36,22 @@
 
 <!-- Paper Dashboard DEMO methods, don't include it in your project! -->
 <script src="<?php echo base_url("application/views/assets/user/assets/js/demo.js"); ?>"></script>
+
+<script type="text/javascript">
+    	$(document).ready(function(){
+
+        	demo.initChartist();
+
+        	$.notify({
+            	icon: 'ti-gift',
+            	message: "Vitaj <?php echo $user; ?>!"
+
+            },{
+                type: 'success',
+                timer: 4000
+            });
+
+    	});
+</script>
 
 </html>
