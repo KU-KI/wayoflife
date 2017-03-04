@@ -53,8 +53,3 @@
 </script>
 
 </html>
-<?php
-else:
-    redirect('');
-endif;
-?>
