@@ -137,7 +137,7 @@ if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userd
                                         </div>
                                         <div class="col-xs-7">
                                             <div class="numbers">
-                                                <p>Pokles váhy</p>
+                                                <p>Pokles <br /> váhy</p>
                                                 -45 kg
                                             </div>
                                         </div>
@@ -212,7 +212,7 @@ if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userd
                                         </div>
                                         <div class="col-xs-7">
                                             <div class="numbers">
-                                                <p>Zostáva dní</p>
+                                                <p>Zostáva <br />dní</p>
                                                 39
                                             </div>
                                         </div>
