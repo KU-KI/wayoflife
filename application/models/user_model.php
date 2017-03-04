@@ -24,7 +24,7 @@
                   }
                   $this->session->set_userdata($newdata);
                   return true;
-              }else{echo'<div style="position:absolute; top:0; width:100%; padding:0 50px; background:rgba(231, 76, 60,1.0); line-height:50px;">Skús to znova!</div>';
+              }else{echo'<div style="position:absolute; top:0; width:100%; padding:0 50px; background:rgba(231, 76, 60,1.0); line-height:50px;">Použil si zlé meno alebo heslo! Skús to znova!</div>';
               return false;
           }}
           public function add_user()
