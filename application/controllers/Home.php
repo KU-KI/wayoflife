@@ -34,7 +34,7 @@ class Home extends CI_Controller {
                 'scope' => array("email")
             ));
         }
-        $this->load->view('login',$data);
+        redirect('home/account');
 
 	}
     public function account($page = 'account')
