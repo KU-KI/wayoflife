@@ -16,7 +16,7 @@ use Facebook\HttpClients\FacebookHttpable;
 // init app with app id and secret
 FacebookSession::setDefaultApplication( '1827407794185012','dbc0b5b9c1686f3da9dd060f882cc7f8' );
 // login helper with redirect_uri
-    $helper = new FacebookRedirectLoginHelper('http://school.huco.sk/fbconfig.php' );
+    $helper = new FacebookRedirectLoginHelper('http://wayoflife.azurewebsites.net/fbconfig.php' );
 try {
   $session = $helper->getSessionFromRedirect();
 } catch( FacebookRequestException $ex ) {
