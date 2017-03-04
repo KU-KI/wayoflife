@@ -25,7 +25,7 @@
                   $this->session->set_userdata($newdata);
                   return true;
               }else{
-                  echo 'Niekde nastala chyba, skús to znova';
+                  $error_hlaska='Niekde nastala chyba, skús to znova';
                   return false;
               }
           }
