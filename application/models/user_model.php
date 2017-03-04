@@ -25,7 +25,7 @@
                   $this->session->set_userdata($newdata);
                   return true;
               }else{
-                  echo '<div style="position:absolute; top:0; width:100%; line-height:50px; background:rgba(192, 57, 43,1.0); padding:0 50px;" >Nezadal si spravne údaje alebo nie si registrovany!</div>';
+                  echo '<div style="position:absolute; top:0; width:100%; line-height:50px; background:rgba(192, 57, 43,1.0); padding:0 50px;" >Nezadal si spravne ú daje alebo nie si registrovany!</div>';
                   return false;
               }
           }
