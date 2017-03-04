@@ -170,5 +170,12 @@ class Home extends CI_Controller {
         $this->load->view('pages/'.$page, $data);
         $this->load->view('templates/user/footer', $data);
     }
+    public function tables($page = 'tables')
+    {
+        $data['title'] = ucfirst($page);
+        $this->load->view('templates/user/header', $data);
+        $this->load->view('pages/'.$page, $data);
+        $this->load->view('templates/user/footer', $data);
+    }
 }
 

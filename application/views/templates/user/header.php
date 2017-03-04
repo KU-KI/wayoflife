@@ -61,8 +61,8 @@ if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userd
                             <p>Profil užívateľa</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
+                    <li <?php if(uri_string()=='home/tables'): echo 'class="active"'; else: endif; ?>>
+                        <a href="/home/tables">
                             <i class="ti-view-list-alt"></i>
                             <p>Tabuľky hodnôt</p>
                         </a>
