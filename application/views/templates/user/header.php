@@ -94,7 +94,7 @@ if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userd
                             <span class="icon-bar bar2"></span>
                             <span class="icon-bar bar3"></span>
                         </button>
-                        <div class="navbar-brand"><?php echo $user; ?></div>
+                        <div class="navbar-brand"></div>
                     </div>
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
