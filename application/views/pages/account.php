@@ -104,8 +104,3 @@
                     </div>
                 </div>
             </div>
-<?php
-      else:
-          redirect('');
-      endif;
-?>

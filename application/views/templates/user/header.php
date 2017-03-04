@@ -1,7 +1,8 @@
 ﻿<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
 <!doctype html>
 <html lang="en">
-<?php if (@$user_profile or $this->session->userdata('user_name')!= NULL):
+<?php if (@$user_profile or $this->session->userdata('user_name')!= NULL):else:redirect(''); endif;
+
 if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userdata('user_name');endif; ?>
 <head>
     <meta charset="utf-8" />
