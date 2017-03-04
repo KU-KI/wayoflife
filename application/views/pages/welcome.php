@@ -158,7 +158,7 @@ if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userd
                                     <p>Settings</p>
                                 </a>
                             </li>
-                            <li><?php echo anchor('home/logout', '<i class="ti-power-off"></i><p>Odhlásiť</p>'); ?></li>
+                            <li><?php echo anchor('home/logout', '<i class="ti-power-off"></i> <p>Odhlásiť</p>'); ?></li>
                         </ul>
 
                     </div>
