@@ -65,8 +65,6 @@ class Home extends CI_Controller {
             ));
         }
 
-        if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userdata('user_name');endif;
-
         $data['title'] = ucfirst($page);
 
         $this->load->view('templates/user/header', $data);
