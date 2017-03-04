@@ -163,6 +163,12 @@ class Home extends CI_Controller {
             $this->successfully();
         }
     }
-
+    public function settings($page = 'settings')
+    {
+        $data['title'] = ucfirst($page);
+        $this->load->view('templates/header', $data);
+        $this->load->view('pages/'.$page, $data);
+        $this->load->view('templates/footer', $data);
+    }
 }
 

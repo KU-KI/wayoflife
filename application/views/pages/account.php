@@ -22,7 +22,7 @@
                                     <div class="footer">
                                         <hr />
                                         <div class="stats">
-                                            <i class="ti-calendar"></i>Za posledný týždeň
+                                            <i class="ti-calendar"></i> Za posledný týždeň
                                         </div>
                                     </div>
                                 </div>
@@ -47,7 +47,7 @@
                                     <div class="footer">
                                         <hr />
                                         <div class="stats">
-                                            <i class="ti-calendar"></i>Za posledný týždeň
+                                            <i class="ti-calendar"></i> Za posledný týždeň
                                         </div>
                                     </div>
                                 </div>
@@ -72,7 +72,7 @@
                                     <div class="footer">
                                         <hr />
                                         <div class="stats">
-                                            <i class="ti-calendar"></i>Za posledný týždeň
+                                            <i class="ti-calendar"></i> Za posledný týždeň
                                         </div>
                                     </div>
                                 </div>
@@ -97,7 +97,7 @@
                                     <div class="footer">
                                         <hr />
                                         <div class="stats">
-                                            <i class="ti-calendar"></i>Za posledný týždeň
+                                            <i class="ti-calendar"></i> Za posledný týždeň
                                         </div>
                                     </div>
                                 </div>
