@@ -56,7 +56,7 @@ if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userd
                         </a>
                     </li>
                     <li>
-                        <a href="settings">
+                        <a href="/home/settings">
                             <i class="ti-user"></i>
                             <p>Profil užívateľa</p>
                         </a>
