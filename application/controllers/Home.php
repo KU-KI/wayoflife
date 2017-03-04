@@ -66,9 +66,9 @@ class Home extends CI_Controller {
         }
 
         $data['title'] = ucfirst($page);
-       
+
         $this->load->view('pages/'.$page, $data);
-       
+
     }
     public function login()
     {
@@ -136,14 +136,14 @@ class Home extends CI_Controller {
         $this->load->view('templates/footer', $data);
 
     }
-    public function thank($page = 'thank')
+    public function successfully($page = 'successfully')
     {
         $data['title'] = ucfirst($page);
         $this->load->view('templates/header', $data);
         $this->load->view('pages/'.$page, $data);
         $this->load->view('templates/footer', $data);
     }
-    public function registration()
+    public function register()
     {
         $this->load->library('form_validation');
         // field name, error message, validation rules
@@ -158,7 +158,7 @@ class Home extends CI_Controller {
         else
         {
             $this->user_model->add_user();
-            $this->thank();
+            $this->successfully();
         }
     }
 
