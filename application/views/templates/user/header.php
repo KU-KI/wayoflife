@@ -50,13 +50,13 @@ if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userd
 
                 <ul class="nav">
                     <li class="active">
-                        <a href="dashboard.html">
+                        <a href="#">
                             <i class="ti-panel"></i>
                             <p>Úvodná stránka</p>
                         </a>
                     </li>
                     <li>
-                        <a href="/home/settings">
+                        <a href="<?php echo uri_string() ?>">
                             <i class="ti-user"></i>
                             <p>Profil užívateľa</p>
                         </a>
