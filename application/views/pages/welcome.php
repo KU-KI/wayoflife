@@ -137,15 +137,15 @@ if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userd
                                         </div>
                                         <div class="col-xs-7">
                                             <div class="numbers">
-                                                <p>Capacity</p>
-                                                105GB
+                                                <p>Pokles váhy</p>
+                                                -45 kg
                                             </div>
                                         </div>
                                     </div>
                                     <div class="footer">
                                         <hr />
                                         <div class="stats">
-                                            <i class="ti-reload"></i>Updated now
+                                            <i class="ti-calendar"></i>Za posledný týždeň
                                         </div>
                                     </div>
                                 </div>
@@ -162,15 +162,15 @@ if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userd
                                         </div>
                                         <div class="col-xs-7">
                                             <div class="numbers">
-                                                <p>Revenue</p>
-                                                $1,345
+                                                <p>Spálených kalórií</p>
+                                                5,805
                                             </div>
                                         </div>
                                     </div>
                                     <div class="footer">
                                         <hr />
                                         <div class="stats">
-                                            <i class="ti-calendar"></i>Last day
+                                            <i class="ti-calendar"></i>Za posledný týždeň
                                         </div>
                                     </div>
                                 </div>
@@ -187,15 +187,15 @@ if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userd
                                         </div>
                                         <div class="col-xs-7">
                                             <div class="numbers">
-                                                <p>Errors</p>
-                                                23
+                                                <p>Vynechané cvičenia</p>
+                                                10
                                             </div>
                                         </div>
                                     </div>
                                     <div class="footer">
                                         <hr />
                                         <div class="stats">
-                                            <i class="ti-timer"></i>In the last hour
+                                            <i class="ti-calendar"></i>Za posledný týždeň
                                         </div>
                                     </div>
                                 </div>
@@ -212,15 +212,15 @@ if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userd
                                         </div>
                                         <div class="col-xs-7">
                                             <div class="numbers">
-                                                <p>Followers</p>
-                                                +45
+                                                <p>Zostáva dní</p>
+                                                39
                                             </div>
                                         </div>
                                     </div>
                                     <div class="footer">
                                         <hr />
                                         <div class="stats">
-                                            <i class="ti-reload"></i>Updated now
+                                            <i class="ti-calendar"></i>Za posledný týždeň
                                         </div>
                                     </div>
                                 </div>
