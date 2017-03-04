@@ -603,6 +603,7 @@
     <Content Include="application\views\assets\user\assets\img\.DS_Store" />
     <Content Include="application\views\assets\user\assets\img\apple-icon.png" />
     <Content Include="application\views\assets\user\assets\img\background.jpg" />
+    <Content Include="application\views\assets\user\assets\img\bg.jpg" />
     <Content Include="application\views\assets\user\assets\img\faces\.DS_Store" />
     <Content Include="application\views\assets\user\assets\img\faces\face-0.jpg" />
     <Content Include="application\views\assets\user\assets\img\faces\face-1.jpg" />

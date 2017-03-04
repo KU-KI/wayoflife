@@ -4,11 +4,11 @@
             <div class="col-lg-4 col-md-5">
                 <div class="card card-user">
                     <div class="image">
-                        <img src="assets/img/background.jpg" alt="..." />
+                        <img src="<?php echo base_url("application/views/assets/user/assets/img/background.jpg");?> alt="..." />
                     </div>
                     <div class="content">
                         <div class="author">
-                            <img class="avatar border-white" src="assets/img/faces/face-2.jpg" alt="..." />
+                            <img class="avatar border-white" src="<?php echo base_url("application/views/assets/user/assets/img/faces/face-2.jpg"); ?>" alt="..." />
                             <h4 class="title">
                                 Chet Faker<br />
                                 <a href="#"><small>@chetfaker</small></a>
