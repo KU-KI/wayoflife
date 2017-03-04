@@ -76,7 +76,7 @@ class Home extends CI_Controller {
         $password=md5($this->input->post('pass'));
 
         $result=$this->user_model->login($email,$password);
-        if($result) $this->account();
+        if($result) redirect('home/account');
         else        $this->index();
     }
     public function logout(){

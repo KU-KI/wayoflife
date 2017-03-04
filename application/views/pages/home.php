@@ -2,7 +2,7 @@
 
 if (@$user_profile or $this->session->userdata('user_name')!= NULL):
 
-    redirect('home/welcome');
+    redirect('home/account');
 
 else:
 
