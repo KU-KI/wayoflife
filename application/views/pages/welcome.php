@@ -58,49 +58,31 @@ if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userd
                     <li class="active">
                         <a href="dashboard.html">
                             <i class="ti-panel"></i>
-                            <p>Dashboard</p>
+                            <p>Úvodná stránka</p>
                         </a>
                     </li>
                     <li>
-                        <a href="user.html">
+                        <a href="#">
                             <i class="ti-user"></i>
-                            <p>User Profile</p>
+                            <p>Profil užívateľa</p>
                         </a>
                     </li>
                     <li>
-                        <a href="table.html">
+                        <a href="#">
                             <i class="ti-view-list-alt"></i>
-                            <p>Table List</p>
+                            <p>Tabuľky hodnôt</p>
                         </a>
                     </li>
                     <li>
-                        <a href="typography.html">
+                        <a href="#">
                             <i class="ti-text"></i>
-                            <p>Typography</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="icons.html">
-                            <i class="ti-pencil-alt2"></i>
-                            <p>Icons</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="maps.html">
-                            <i class="ti-map"></i>
-                            <p>Maps</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="notifications.html">
-                            <i class="ti-bell"></i>
-                            <p>Notifications</p>
+                            <p>Poznámky</p>
                         </a>
                     </li>
                     <li class="active-pro">
-                        <a href="upgrade.html">
+                        <a href="#">
                             <i class="ti-export"></i>
-                            <p>Upgrade to PRO</p>
+                            <p>Chcem viac</p>
                         </a>
                     </li>
                 </ul>
@@ -124,38 +106,13 @@ if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userd
                             <li>
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                     <i class="ti-panel"></i>
-                                    <p>Stats</p>
+                                    <p>Štatistiky</p>
                                 </a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="ti-bell"></i>
-                                    <p class="notification">5</p>
-                                    <p>Notifications</p>
-                                    <b class="caret"></b>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="#">Notification 1</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Notification 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Notification 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Notification 4</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Another notification</a>
-                                    </li>
-                                </ul>
                             </li>
                             <li>
                                 <a href="#">
                                     <i class="ti-settings"></i>
-                                    <p>Settings</p>
+                                    <p>Nastavenia</p>
                                 </a>
                             </li>
                             <li><?php echo anchor('home/logout', '<i class="ti-power-off"></i> <p>Odhlásiť</p>'); ?></li>
@@ -320,7 +277,7 @@ if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userd
 
         	$.notify({
             	icon: 'ti-gift',
-            	message: "Welcome <?php echo $user; ?>!"
+            	message: "Vitaj <?php echo $user; ?>!"
 
             },{
                 type: 'success',
