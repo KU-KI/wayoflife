@@ -39,7 +39,7 @@
                 <div class="form">
                     <h2>Vytvorenie účtu</h2>
                     <?php echo validation_errors('<p class="error">'); ?>
-                    <?php echo form_open("register"); ?>
+                    <?php echo form_open("register/index/"); ?>
                     <input type="text" id="user_name" name="user_name" value="<?php echo set_value('user_name'); ?>" placeholder="Používateľské meno" />
                     <input type="password" id="password" name="password" value="<?php echo set_value('password'); ?>" placeholder="Heslo" />
                     <input type="text" id="email_address" name="email_address" value="<?php echo set_value('email_address'); ?>" placeholder="E-mail" />
