@@ -51,9 +51,9 @@ endif
                 <div class="form">
                     <h2>Vytvorenie účtu</h2>
                     <form action="functions.php" method="post" accept-charset="utf-8">
-                        <input type="text" id="user_name" name="user_name" value="<?php echo $_SESSION['FULLNAME']; ?>" />
-                        <input type="password" id="password" name="password" value="" placeholder="Heslo" />
-                        <input type="text" id="email_address" name="email_address" value="" placeholder="E-mail" />
+                        <input type="text" id="user_name" name="user_name" value="<?php echo $_SESSION['FULLNAME']; ?>" required/>
+                        <input type="password" id="password" name="password" value="" placeholder="Heslo" required/>
+                        <input type="text" id="email_address" name="email_address" value="" placeholder="E-mail" required/>
                         <input type="submit" value="dokončiť" />
 
                     </form>               
