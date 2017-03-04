@@ -98,7 +98,7 @@
               redirect('');
           }
 
-          public function index($page = 'home')
+          public function index($page = 'login')
           {
               $this->load->library('facebook');
               $user = $this->facebook->getUser();
