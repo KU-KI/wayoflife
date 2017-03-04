@@ -117,7 +117,7 @@ if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userd
                             <span class="icon-bar bar2"></span>
                             <span class="icon-bar bar3"></span>
                         </button>
-                        <div class="navbar-brand"><?php echo anchor('home/logout', 'Odhlásiť'); ?></div>
+                        <div class="navbar-brand"><?php echo $user; ?></div>
                     </div>
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
@@ -158,6 +158,7 @@ if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userd
                                     <p>Settings</p>
                                 </a>
                             </li>
+                            <li><?php echo anchor('home/logout', '<i class="ti-settings"></i><p>Settings</p>'); ?></li>
                         </ul>
 
                     </div>
