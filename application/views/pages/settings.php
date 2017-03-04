@@ -4,7 +4,7 @@
             <div class="col-lg-4 col-md-5">
                 <div class="card card-user">
                     <div class="image">
-                        <img src="<?php echo base_url("application/views/assets/user/assets/img/background.jpg");?> alt="..." />
+                        <img src="<?php echo base_url("application/views/assets/user/assets/img/background.jpg"); ?>" alt="..." />
                     </div>
                     <div class="content">
                         <div class="author">
