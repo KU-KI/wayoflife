@@ -49,13 +49,13 @@ if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userd
                 </div>
 
                 <ul class="nav">
-                    <li class="active">
+                    <li <?php if(uri_string()==''): echo 'class="active"'; else: endif; ?>>
                         <a href="#">
                             <i class="ti-panel"></i>
                             <p>Úvodná stránka</p>
                         </a>
                     </li>
-                    <li>
+                    <li <?php if(uri_string()=='home/settings'): echo 'class="active"'; else: endif; ?>>
                         <a href="<?php echo uri_string() ?>">
                             <i class="ti-user"></i>
                             <p>Profil užívateľa</p>
