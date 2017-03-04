@@ -36,6 +36,7 @@
     <Compile Include="application\config\user_agents.php" />
     <Compile Include="application\controllers\index.html" />
     <Compile Include="application\controllers\Home.php" />
+    <Compile Include="application\controllers\Login.php" />
     <Compile Include="application\core\index.html" />
     <Compile Include="application\helpers\index.html" />
     <Compile Include="application\hooks\index.html" />
