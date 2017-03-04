@@ -53,6 +53,7 @@ body {
   border-bottom: 5px solid transparent;
   border-right: 5px solid rgba(0, 0, 0, 0.6);
 }
+.fa{line-height: 30px;}
 .form-module .form {
   display: none;
   padding: 40px;
