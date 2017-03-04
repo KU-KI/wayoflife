@@ -46,7 +46,6 @@
     <Compile Include="application\libraries\index.html" />
     <Compile Include="application\logs\index.html" />
     <Compile Include="application\models\index.html" />
-    <Compile Include="application\models\user_model.php" />
     <Compile Include="application\third_party\index.html" />
     <Compile Include="application\views\errors\cli\error_404.php" />
     <Compile Include="application\views\errors\cli\error_db.php" />
