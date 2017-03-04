@@ -30,14 +30,14 @@ class Home extends CI_Controller {
 
         } else {
             $data['login_url'] = $this->facebook->getLoginUrl(array(
-                'redirect_uri' => site_url('home/welcome'),
+                'redirect_uri' => site_url('home/account'),
                 'scope' => array("email")
             ));
         }
         $this->load->view('login',$data);
 
 	}
-    public function welcome($page = 'welcome')
+    public function account($page = 'account')
     {
         $this->load->library('facebook');
 
@@ -60,7 +60,7 @@ class Home extends CI_Controller {
 
         } else {
             $data['login_url'] = $this->facebook->getLoginUrl(array(
-                'redirect_uri' => site_url('home/welcome'),
+                'redirect_uri' => site_url('home/account'),
                 'scope' => array("email")
             ));
         }
@@ -76,7 +76,7 @@ class Home extends CI_Controller {
         $password=md5($this->input->post('pass'));
 
         $result=$this->user_model->login($email,$password);
-        if($result) $this->welcome();
+        if($result) $this->account();
         else        $this->index();
     }
     public function logout(){
@@ -119,7 +119,7 @@ class Home extends CI_Controller {
 
         } else {
             $data['login_url'] = $this->facebook->getLoginUrl(array(
-                'redirect_uri' => site_url('home/welcome'),
+                'redirect_uri' => site_url('home/account'),
                 'scope' => array("email")
             ));
         }
