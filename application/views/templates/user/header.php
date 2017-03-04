@@ -49,8 +49,8 @@ if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userd
                 </div>
 
                 <ul class="nav">
-                    <li <?php if(uri_string()==''): echo 'class="active"'; else: endif; ?>>
-                        <a href="/">
+                    <li <?php if(uri_string()=='/home/account'): echo 'class="active"'; else: endif; ?>>
+                        <a href="/home/account">
                             <i class="ti-panel"></i>
                             <p>Úvodná stránka</p>
                         </a>
