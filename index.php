@@ -49,8 +49,8 @@ session_start();
                 <div class="form">
                     <h2>Prihlásiť sa do účtu</h2>               
                     <form action="core/login.php" method="post" accept-charset="utf-8">
-                        <input type="text" id="email" name="email" value="" placeholder="E-mail" />
-                        <input type="password" id="pass" name="pass" value="" placeholder="Heslo" />
+                        <input type="text" id="email" name="email" value="" placeholder="E-mail" required/>
+                        <input type="password" id="pass" name="pass" value="" placeholder="Heslo" required/>
                         <input type="submit" class="" value="submit" name="submit"/>
                         <a href="fbconfig.php" class="btn btn-lg btn-primary btn-block facebook" role="button">... facebook</a>
                     </form>                
@@ -59,9 +59,9 @@ session_start();
                 <div class="form">
                     <h2>Vytvorenie účtu</h2>
                     <form action="core/functions.php" method="post" accept-charset="utf-8">
-                        <input type="text" id="user_name" name="user_name" value="" placeholder="Používateľské meno" />
-                        <input type="password" id="password" name="password" value="" placeholder="Heslo" />
-                        <input type="text" id="email_address" name="email_address" value="" placeholder="E-mail" />
+                        <input type="text" id="user_name" name="user_name" value="" placeholder="Používateľské meno" required/>
+                        <input type="password" id="password" name="password" value="" placeholder="Heslo" required/>
+                        <input type="text" id="email_address" name="email_address" value="" placeholder="E-mail" required/>
                         <input type="submit" value="submit" />
 
                         <a href="fbconfig.php" class="btn btn-lg btn-primary btn-block facebook" role="button">... facebook</a>
