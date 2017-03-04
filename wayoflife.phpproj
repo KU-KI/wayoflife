@@ -66,7 +66,6 @@
     <Compile Include="application\views\pages\settings.php" />
     <Compile Include="application\views\pages\successfully.php" />
     <Compile Include="application\views\pages\account.php" />
-    <Compile Include="application\views\pages\tables.php" />
     <Compile Include="application\views\templates\footer.php" />
     <Compile Include="application\views\templates\header.php" />
     <Compile Include="application\.htaccess" />
