@@ -64,6 +64,7 @@
     <Compile Include="application\views\errors\index.html" />
     <Compile Include="application\views\index.html" />
     <Compile Include="application\views\pages\home.php" />
+    <Compile Include="application\views\pages\login.php" />
     <Compile Include="application\views\pages\thank.php" />
     <Compile Include="application\views\pages\welcome.php" />
     <Compile Include="application\views\templates\footer.php" />
