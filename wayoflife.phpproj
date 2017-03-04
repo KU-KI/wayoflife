@@ -37,6 +37,7 @@
     <Compile Include="application\controllers\index.html" />
     <Compile Include="application\controllers\Home.php" />
     <Compile Include="application\controllers\Index.php" />
+    <Compile Include="application\controllers\Register.php" />
     <Compile Include="application\core\index.html" />
     <Compile Include="application\helpers\index.html" />
     <Compile Include="application\hooks\index.html" />
