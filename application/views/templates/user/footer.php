@@ -12,7 +12,7 @@
         </div>
     </div>
 
-
+<?php echo $user; ?>
 </body>
 
 <!--   Core JS Files   -->
@@ -34,22 +34,5 @@
 
 <!-- Paper Dashboard DEMO methods, don't include it in your project! -->
 <script src="<?php echo base_url("application/views/assets/user/assets/js/demo.js"); ?>"></script>
-
-<script type="text/javascript">
-    	$(document).ready(function(){
-
-        	demo.initChartist();
-
-        	$.notify({
-            	icon: 'ti-gift',
-            	message: "Vitaj !"
-
-            },{
-                type: 'success',
-                timer: 4000
-            });
-
-    	});
-</script>
 
 </html>
