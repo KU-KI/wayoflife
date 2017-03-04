@@ -91,18 +91,6 @@ if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userd
                     </div>
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li>
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="ti-panel"></i>
-                                    <p>Štatistiky</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="ti-settings"></i>
-                                    <p>Nastavenia</p>
-                                </a>
-                            </li>
                             <li><?php echo anchor('home/logout', '<i class="ti-power-off"></i> <p>Odhlásiť</p>'); ?></li>
                         </ul>
 
