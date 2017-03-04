@@ -42,7 +42,7 @@
 
         	$.notify({
             	icon: 'ti-gift',
-            	message: "Vitaj <?php echo $user; ?>!"
+            	message: "Vitaj !"
 
             },{
                 type: 'success',
