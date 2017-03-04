@@ -27,8 +27,7 @@ else:
                     
                 </div>
                 <div class="form">
-                    <h2>Prihlásiť sa do účtu</h2>
-                    <?php echo $error_hlaska; ?>
+                    <h2>Prihlásiť sa do účtu</h2>               
                     <?php echo form_open("home/login"); ?>
                         <input type="text" id="email" name="email" value="" placeholder="E-mail" />
                         <input type="password" id="pass" name="pass" value="" placeholder="Heslo" />
