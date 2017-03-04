@@ -27,7 +27,7 @@ demo = {
           ]
         };
 
-        /*var optionsSales = {
+        /* var optionsSales = {
           lineSmooth: false,
           low: 0,
           high: 1000,
@@ -41,7 +41,7 @@ demo = {
           }),
           showLine: true,
           showPoint: false,
-        };*/
+        }; */
 
         var responsiveSales = [
           ['screen and (max-width: 640px)', {
