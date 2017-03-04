@@ -1,5 +1,3 @@
-<?php if (@$user_profile or $this->session->userdata('user_name')!= NULL):
-if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userdata('user_name');endif;?>
             <div class="content">
                 <div class="container-fluid">
                     <div class="row">
