@@ -255,14 +255,14 @@ if (@$user_profile):$user=$user_profile['name'];else:$user=$this->session->userd
 <!--  Checkbox, Radio & Switch Plugins -->
 <script src="<?php echo base_url("application/views/assets/user/assets/js/bootstrap-checkbox-radio.js"); ?>"></script>
 
-<!--  Charts Plugin -->
-<script src="<?php echo base_url("application/views/assets/user/assets/js/chartist.min.js"); ?>"></script>
+<!--  Charts Plugin 
+<script src="<?php echo base_url("application/views/assets/user/assets/js/chartist.min.js"); ?>"></script>-->
 
 <!--  Notifications Plugin    -->
 <script src="<?php echo base_url("application/views/assets/user/assets/js/bootstrap-notify.js"); ?>"></script>
 
-<!--  Google Maps Plugin    -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+<!--  Google Maps Plugin    
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>-->
 
 <!-- Paper Dashboard Core javascript and methods for Demo purpose -->
 <script src="<?php echo base_url("application/views/assets/user/assets/js/paper-dashboard.js"); ?>"></script>
