@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 include 'dbconfig.php';
 
 session_start(); 
@@ -28,7 +28,7 @@ if (isset($_POST['submit'])) {
                     $username = $row['Ffname'];
                     
                     $_SESSION['FULLNAME']=$username; 
-                    header("location: /dashboard.php");
+                    header("location: /dashboard.php?f=1");
 		}
 	}	
 }

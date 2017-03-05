@@ -34,7 +34,7 @@
 
 	<!-- Paper Dashboard DEMO methods, don't include it in your project! -->
 	<script src="assets/js/demo.js"></script>
-
+    <?php if(isset($_GET['f'])) { ?>
 	<script type="text/javascript">
     	$(document).ready(function(){
 
@@ -51,5 +51,5 @@
 
     	});
 	</script>
-
+    <?php } ?>
 </html>
