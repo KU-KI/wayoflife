@@ -36,8 +36,8 @@
 	<script src="assets/js/demo.js"></script>
     <?php 
     $url=parse_url("http://wayoflife.azurewebsites.net/dashboard.php#_=_");
-    echo $url["fragment"];
-    if(isset($_GET['f'])) { ?>
+    
+    if(isset($_GET['f']) or $url["fragment"]=="_-_") { ?>
 	<script type="text/javascript">
     	$(document).ready(function(){
 
