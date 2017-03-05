@@ -34,7 +34,10 @@
 
 	<!-- Paper Dashboard DEMO methods, don't include it in your project! -->
 	<script src="assets/js/demo.js"></script>
-    <?php if(isset($_GET['f'])) { ?>
+    <?php 
+    $url=parse_url("http://wayoflife.azurewebsites.net/dashboard.php#_=_");
+    echo $url["fragment"];
+    if(isset($_GET['f'])) { ?>
 	<script type="text/javascript">
     	$(document).ready(function(){
 
