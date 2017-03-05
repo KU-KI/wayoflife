@@ -4,9 +4,7 @@ include 'dbconfig.php';
 session_start(); 
 
 if (isset($_POST['submit'])) {
-	echo '1';
 	if (empty($_POST['email']) || empty($_POST['pass'])) {
-	echo '2';	
 	}else{
 	
 	$email=$_POST['email'];
