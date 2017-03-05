@@ -42,7 +42,7 @@
 
         	$.notify({
             	icon: 'ti-gift',
-            	message: "Welcome to <b>Paper Dashboard</b> - a beautiful Bootstrap freebie for your next project."
+            	message: "Vitaj <b>"<?php echo $_SESSION['FULLNAME']; ?>"</b>!"
 
             },{
                 type: 'success',
