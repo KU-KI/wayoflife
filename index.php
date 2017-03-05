@@ -1,7 +1,7 @@
 <?php
 session_start(); 
 ?>
-<?php if ($_SESSION['FBID']): header("Location: /dashboard.php"); else: endif ?>
+<?php if ($_SESSION['FBID'] or OR $_SESSION['FULLNAME']): header("Location: /dashboard.php"); else: endif ?>
 <!DOCTYPE html>
 <html lang="sk">
 <head>
