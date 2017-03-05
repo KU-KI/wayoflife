@@ -35,9 +35,10 @@
 	<!-- Paper Dashboard DEMO methods, don't include it in your project! -->
 	<script src="assets/js/demo.js"></script>
     <?php 
-    $url=parse_url("http://wayoflife.azurewebsites.net/dashboard.php#_=_");
-    
-    if(isset($_GET['f']) or $url["fragment"]=="_-_") { ?>
+    $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+    $url=parse_url($actual_link);
+    echo $url["fragment"];
+    if(isset($_GET['f'])) { ?>
 	<script type="text/javascript">
     	$(document).ready(function(){
 
