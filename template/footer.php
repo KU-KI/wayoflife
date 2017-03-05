@@ -42,7 +42,7 @@
 
         	$.notify({
             	icon: 'ti-gift',
-            	message: "Vitaj <b>"<?php echo $_SESSION['FULLNAME']; ?>"</b>!"
+            	message: "Vitaj <b><?php echo $_SESSION['FULLNAME']; ?></b>!"
 
             },{
                 type: 'success',
