@@ -38,6 +38,7 @@
     $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
     $url=parse_url($actual_link);
     echo $url["fragment"];
+
     if(isset($_GET['f'])) { ?>
 	<script type="text/javascript">
     	$(document).ready(function(){
