@@ -21,6 +21,7 @@
   <ItemGroup>
     <Content Include="assets\css\owl.carousel.min.css" />
     <Content Include="assets\css\owl.theme.default.min.css" />
+    <Content Include="assets\css\responsive.css" />
     <Content Include="assets\img\slider.jpg" />
     <Content Include="assets\js\owl.carousel.js" />
   </ItemGroup>
