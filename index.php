@@ -42,10 +42,12 @@ session_start();
                     <div class="text-center">
                         <i class="fa fa-calculator" aria-hidden="true"></i>
                     </div>
+                </div>
                 <div class="col-md-3">
                     <div class="text-center">
                         <i class="fa fa-line-chart" aria-hidden="true"></i>
                     </div>
+                </div>
                 <div class="col-md-3 text-center">
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">
                         Prihlásiť sa
