@@ -33,13 +33,13 @@ session_start();
         <div class="col-md-12 nopadding">
             <div class="owl-carousel owl-theme">
                 <div class="item">
-                    <div class="slide_1"></div>
-                </div>
-                <div class="item"> 
-                    <div class="slide_2"></div>
+                    <div class="slide"></div>
                 </div>
                 <div class="item">
-                    <div class="slide_3"></div>
+                    <div class="slide"></div>
+                </div>
+                <div class="item">
+                    <div class="slide"></div>
                 </div>
             </div>
         </div>
