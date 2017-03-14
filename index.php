@@ -35,13 +35,13 @@ session_start();
         <div class="col-md-12 nopadding">
             <div class="owl-carousel owl-theme">
                 <div class="item">
-                    <img src="assets/img/slider.jpg" />
+                    <div class="slide"></div>
                 </div>
                 <div class="item">
-                    <img src="assets/img/slider.jpg" />
+                    <div class="slide"></div>
                 </div>
                 <div class="item">
-                    <img src="assets/img/slider.jpg" />
+                    <div class="slide"></div>
                 </div>
             </div>
         </div>

@@ -158,3 +158,10 @@ body {
     color:#fff;
     text-decoration:none;
 }
+.slide{
+    background-image:url(../img/slider.jpg);
+    height:365px;
+    width:100%;
+    background-size:100%;
+    background-position:bottom center;
+}
