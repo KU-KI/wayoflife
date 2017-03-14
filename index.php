@@ -34,17 +34,17 @@ session_start();
         <div class="col-md-12">
             <div class="row background-green">
                 <div class="col-md-3">
-                    <div class="text-center">
+                    <div class="text-center icon">
                         <i class="fa fa-heart" aria-hidden="true"></i>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="text-center">
+                    <div class="text-center icon">
                         <i class="fa fa-calculator" aria-hidden="true"></i>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="text-center">
+                    <div class="text-center icon">
                         <i class="fa fa-line-chart" aria-hidden="true"></i>
                     </div>
                 </div>
