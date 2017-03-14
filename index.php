@@ -32,7 +32,7 @@ session_start();
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12 nopadding">
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <h4>1</h4>

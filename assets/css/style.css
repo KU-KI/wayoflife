@@ -154,5 +154,7 @@ body {
     margin:20px auto;
 }
 .about-page-href a{
-    line-height:25px;
+    line-height:50px;
+    color:#fff;
+    text-decoration:none;
 }
