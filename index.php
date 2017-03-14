@@ -28,46 +28,42 @@ session_start();
 <body>
 <div class="container text-center">
     <h1>Way of life</h1>
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        Launch demo modal
+    </button>
 </div>
-<div class="container">
-    <div class="row col-md-offset-3">
-        <div class="col-md-4 nopadding">
-            <div class="module form-module info-text">
-                <h2>Zdravíme ťa!</h2>
-                <p>Na úvod si prečítajte, na čo slúži táto aplikácia.</p>
-                <p>Aplikácia slúži na podporu a pomoc ľuďom pri tvorbe ich denného jedálnička, pri kontrole a podobných záležitostí spojené s správnou životosprávou.</p>
-                <p>Po prihlásení sa v zobrazí administračné prostredie pre tvoje poznámky a rôzne utility, ktoré vám v tomto smere pomôžu.</p>
-            </div>
-        </div>
-        <div class="col-md-4 nopadding">
+<div class="container modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
             <div class="module form-module">
                 <div class="toggle">
                     <i class="fa fa-times fa-pencil"></i>
-                    
+
                 </div>
-                
+
                 <div class="form">
-                    <h2>Prihlásiť sa do účtu</h2>               
+                    <h2>Prihlásiť sa do účtu</h2>
                     <form action="core/login.php" method="post" accept-charset="utf-8">
-                        <input type="text" id="email" name="email" value="" placeholder="E-mail" required/>
-                        <input type="password" id="pass" name="pass" value="" placeholder="Heslo" required/>
-                        <input type="submit" class="" value="submit" name="submit"/>
+                        <input type="text" id="email" name="email" value="" placeholder="E-mail" required/ />
+                        <input type="password" id="pass" name="pass" value="" placeholder="Heslo" required/ />
+                        <input type="submit" class="" value="submit" name="submit" />
                         <a href="fbconfig.php" class="btn btn-lg btn-primary btn-block facebook" role="button">... facebook</a>
-                    </form>                
+                    </form>
                 </div>
 
                 <div class="form">
                     <h2>Vytvorenie účtu</h2>
                     <form action="core/functions.php" method="post" accept-charset="utf-8">
-                        <input type="text" id="user_name" name="user_name" value="" placeholder="Používateľské meno" required/>
-                        <input type="password" id="password" name="password" value="" placeholder="Heslo" required/>
-                        <input type="text" id="email_address" name="email_address" value="" placeholder="E-mail" required/>
+                        <input type="text" id="user_name" name="user_name" value="" placeholder="Používateľské meno" required/ />
+                        <input type="password" id="password" name="password" value="" placeholder="Heslo" required/ />
+                        <input type="text" id="email_address" name="email_address" value="" placeholder="E-mail" required/ />
                         <input type="submit" value="submit" />
 
                         <a href="fbconfig.php" class="btn btn-lg btn-primary btn-block facebook" role="button">... facebook</a>
-                    </form>               
+                    </form>
                 </div>
-                
+
                 <div class="cta">
                     <a rel="nofollow" rel="noreferrer" href="http://trpaslici.azurewebsites.net/" target="_blank">Stránka developerov</a>
                 </div>
