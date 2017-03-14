@@ -37,16 +37,18 @@ session_start();
         <div class="col-md-12">
             <div class="row background-green">
                 <div class="col-md-3">
-                    1
+                    <i class="fa fa-heart" aria-hidden="true"></i>
                 </div>
                 <div class="col-md-3">
-                    1
+                    <i class="fa fa-calculator" aria-hidden="true"></i>
                 </div>
                 <div class="col-md-3">
-                    1
+                    <i class="fa fa-line-chart" aria-hidden="true"></i>
                 </div>
                 <div class="col-md-3">
-                    1
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                        Prihlásiť sa
+                    </button>
                 </div>
             </div>
         </div>
