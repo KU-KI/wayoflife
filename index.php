@@ -28,8 +28,11 @@ session_start();
 <body>
 <div class="container text-center">
     <h1>Way of life</h1>
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        modal
+    </button>
 </div>
-<div class="container">
+<div class="container modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="row">
         <div class="col-md-4 col-md-offset-4">
             <div class="module form-module">
