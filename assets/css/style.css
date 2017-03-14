@@ -164,6 +164,13 @@ body {
     background-size:100%;
     background-position:bottom center;
 }
+.slide2{
+    background-image:url(../img/2.jpg);
+    height:365px;
+    width:100%;
+    background-size:100%;
+    background-position:bottom center;
+}
 .btn-close-modal{
     border-radius:0;
     margin:20px auto;
