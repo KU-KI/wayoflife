@@ -35,7 +35,7 @@ session_start();
                 <div class="item">
                     <div class="slide_1"></div>
                 </div>
-                <div class="item">
+                <div class="item"> 
                     <div class="slide_2"></div>
                 </div>
                 <div class="item">
