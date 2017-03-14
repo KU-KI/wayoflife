@@ -49,7 +49,7 @@ session_start();
                     </div>
                 </div>
                 <div class="col-md-3 text-center">
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">
+                    <button type="button" class="btn btn-default btn-login" data-toggle="modal" data-target="#myModal">
                         Prihlásiť sa
                     </button>
                 </div>

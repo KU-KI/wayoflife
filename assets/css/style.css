@@ -143,3 +143,7 @@ body {
    border-radius:100%;
    margin:15px;
 }
+.btn-login{
+    border-radius:0px;
+    margin:20px;
+}
