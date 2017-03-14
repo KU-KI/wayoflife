@@ -27,9 +27,6 @@ session_start();
     <![endif]-->
 </head>
 <body>
-<div class="container text-center">
-    <h1>Way of life</h1>
-</div>
 <div class="container">
     <div class="row">
         <div class="col-md-12 nopadding">
