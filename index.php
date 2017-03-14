@@ -149,7 +149,9 @@ session_start();
                 nav: false,
                 loop: true,
                 items: 1,
-                dots:false
+                dots: false,
+                autoplay: true,
+                autoplayTimeout:3000
               })
             })
     </script>
