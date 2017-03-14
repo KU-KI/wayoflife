@@ -153,3 +153,6 @@ body {
     text-align:justify;
     margin:20px auto;
 }
+.about-page-href a{
+    line-height:25px;
+}

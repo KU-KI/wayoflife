@@ -107,7 +107,7 @@ session_start();
 </div>
 <div class="container">
     <div class="row background-gray">
-        <div class="col-md-12 text-center">
+        <div class="col-md-12 text-center about-page-href">
             <a rel="nofollow" rel="noreferrer" href="http://trpaslici.azurewebsites.net/" target="_blank">Stránka developerov</a>
         </div>
     </div>
