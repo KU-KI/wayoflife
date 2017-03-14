@@ -176,7 +176,7 @@ body {
     height:365px;
     width:100%;
     background-size:100%;
-    background-position: top center;
+    background-position: center center;
 }
 .btn-close-modal{
     border-radius:0;
