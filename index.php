@@ -85,8 +85,8 @@ session_start();
 </div>
 <div class="container modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="row">
-        <div class="col-md-12 text-right;">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Zavrieť</button>
+        <div class="col-md-12 text-right">
+            <button type="button" class="btn btn-default btn-close-modal" data-dismiss="modal">Zavrieť</button>
         </div>
     </div>
     <div class="row">

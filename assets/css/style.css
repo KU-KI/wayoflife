@@ -165,3 +165,7 @@ body {
     background-size:100%;
     background-position:bottom center;
 }
+.btn-close-modal{
+    border-radius:0;
+    margin:20px auto;
+}
