@@ -68,6 +68,7 @@ session_start();
                     <div class="info-text-in">Kontroluj štatistiky, koľko si pribral, koľko si schudol a ako sa za celé obdobie zmenila tvoja váha! To všetko na jednom mieste!</div>
                 </div>
                 <div class="col-md-3 text-center">
+                    <h2>Way of life</h2>
                     <button type="button" class="btn btn-default btn-login" data-toggle="modal" data-target="#myModal">
                         Prihlásiť sa
                     </button>
