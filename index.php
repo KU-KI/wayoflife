@@ -52,9 +52,9 @@ session_start();
     </div>
 </div>
 <div class="container">
-    <div class="row">
-        <div class="col-md-12">
-
+    <div class="row background-gray">
+        <div class="col-md-12 text-center">
+            <a rel="nofollow" rel="noreferrer" href="http://trpaslici.azurewebsites.net/" target="_blank">Stránka developerov</a>
         </div>
     </div>
 </div>
