@@ -48,7 +48,7 @@ session_start();
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <div class="row background-green">
+            <div class="row background-green short-info">
                 <div class="col-md-3">
                     <div class="text-center icon">
                         <i class="fa fa-heart" aria-hidden="true"></i>
