@@ -37,19 +37,19 @@ session_start();
                     <div class="text-center icon">
                         <i class="fa fa-heart" aria-hidden="true"></i>
                     </div>
-                    <div class="info-text">Vytvor si svoju vlastnú životosprávu! Vyber si z možností jedál, utvor jedálniček, stráž si kalorické hodnoty a dostaň svoje telo do najlepšej formy!</div>
+                    <div class="info-text-in">Vytvor si svoju vlastnú životosprávu! Vyber si z možností jedál, utvor jedálniček, stráž si kalorické hodnoty a dostaň svoje telo do najlepšej formy!</div>
                 </div>
                 <div class="col-md-3">
                     <div class="text-center icon">
                         <i class="fa fa-calculator" aria-hidden="true"></i>
                     </div>
-                    <div class="info-text">Vypočítaj si objem príjmu a výdaju energickej hodnoty, nezabudni zarátať celú prijatú a vydanú energiu a udržuj svoj jedálniček v spravnej hladine!</div>
+                    <div class="info-text-in">Vypočítaj si objem príjmu a výdaju energickej hodnoty, nezabudni zarátať celú prijatú a vydanú energiu a udržuj svoj jedálniček v spravnej hladine!</div>
                 </div>
                 <div class="col-md-3">
                     <div class="text-center icon">
                         <i class="fa fa-line-chart" aria-hidden="true"></i>
                     </div>
-                    <div class="info-text">Kontroluj štatistiky, koľko si pribral, koľko si schudol a ako sa za celé obdobie zmenila tvoja váha! To všetko na jednom mieste!</div>
+                    <div class="info-text-in">Kontroluj štatistiky, koľko si pribral, koľko si schudol a ako sa za celé obdobie zmenila tvoja váha! To všetko na jednom mieste!</div>
                 </div>
                 <div class="col-md-3 text-center">
                     <button type="button" class="btn btn-default btn-login" data-toggle="modal" data-target="#myModal">
