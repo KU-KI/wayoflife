@@ -177,7 +177,8 @@ session_start();
                 margin: 10,
                 nav: false,
                 loop: true,
-                items: 1
+                items: 1,
+                dots:false
               })
             })
     </script>
