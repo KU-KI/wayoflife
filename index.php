@@ -154,8 +154,6 @@ session_start();
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/vendors/jquery.min.js"></script>
     <script src="assets/owlcarousel/owl.carousel.js"></script>
     <script>
         // Toggle Function
@@ -192,5 +190,6 @@ session_start();
               })
             })
     </script>
+    <script src="assets/js/bootstrap.min.js"></script>
   </body>
 </html>
