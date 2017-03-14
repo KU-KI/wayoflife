@@ -53,14 +53,14 @@ session_start();
                     <div class="text-center icon">
                         <i class="fa fa-heart" aria-hidden="true"></i>
                         <h3>Zdravie</h3>
-                    </div
+                    </div>
                     <div class="info-text-in">Vytvor si svoju vlastnú životosprávu! Vyber si z možností jedál, utvor jedálniček, stráž si kalorické hodnoty a dostaň svoje telo do najlepšej formy!</div>
                 </div>
                 <div class="col-md-3">
                     <div class="text-center icon">
                         <i class="fa fa-calculator" aria-hidden="true"></i>
                         <h3>Kalkulačka</h3>
-                    </div
+                    </div>
                     <div class="info-text-in">Vypočítaj si objem príjmu a výdaju energickej hodnoty, nezabudni zarátať celú prijatú a vydanú energiu a udržuj svoj jedálniček v spravnej hladine!</div>
                 </div>
                 <div class="col-md-3">
