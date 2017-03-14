@@ -5,9 +5,9 @@
     }
     .slide2 {
         background-size:cover;
+        background-position: center right;
     }
     .slide3 {
         background-size:cover;
-        background-position: center right;
     }
 }
