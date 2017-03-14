@@ -178,7 +178,6 @@ session_start();
                 nav: false,
                 loop: true,
                 items: 1
-                }
               })
             })
     </script>
