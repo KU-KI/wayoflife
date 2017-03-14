@@ -28,9 +28,6 @@ session_start();
 <body>
 <div class="container text-center">
     <h1>Way of life</h1>
-    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-        Launch demo modal
-    </button>
 </div>
 <div class="container">
     <div class="row">
@@ -51,6 +48,13 @@ session_start();
                     </button>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+
         </div>
     </div>
 </div>
