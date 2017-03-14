@@ -1,5 +1,13 @@
 @media (max-width: 750px) {
-    .slide,.slide2,.slide3 {
+    .slide {
         background-size:cover;
+        background-position: center left;
+    }
+    .slide2 {
+        background-size:cover;
+    }
+    .slide3 {
+        background-size:cover;
+        background-position: center right;
     }
 }
