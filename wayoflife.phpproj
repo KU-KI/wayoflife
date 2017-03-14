@@ -22,7 +22,16 @@
     <Content Include="assets\css\owl.carousel.min.css" />
     <Content Include="assets\css\owl.theme.default.min.css" />
     <Content Include="assets\css\responsive.css" />
+    <Content Include="assets\img\1.jpg" />
+    <Content Include="assets\img\2.jpg" />
+    <Content Include="assets\img\3.jpg" />
     <Content Include="assets\img\slider.jpg" />
     <Content Include="assets\js\owl.carousel.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\" />
+    <Folder Include="assets\css\" />
+    <Folder Include="assets\img\" />
+    <Folder Include="assets\js\" />
   </ItemGroup>
 </Project>
