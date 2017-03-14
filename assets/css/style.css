@@ -139,4 +139,6 @@ body {
 .icon i{
    font-size:35px; 
    padding:25px;
+   border:5px solid #ffffff;
+   border-radius:100%;
 }
