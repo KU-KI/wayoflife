@@ -42,8 +42,8 @@ session_start();
                 <div class="col-md-3">
                     <i class="fa fa-line-chart" aria-hidden="true"></i>
                 </div>
-                <div class="col-md-3">
-                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                <div class="col-md-3 text-center">
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">
                         Prihlásiť sa
                     </button>
                 </div>
