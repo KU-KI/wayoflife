@@ -1,5 +1,5 @@
 @media (max-width: 750px) {
-    .slide1,.slide2,.slide3 {
+    .slide,.slide2,.slide3 {
         background-size:cover;
     }
 }
