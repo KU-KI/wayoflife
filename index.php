@@ -32,6 +32,20 @@ session_start();
         Launch demo modal
     </button>
 </div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 background-green">
+            <div class="row">
+                <div class="col-md-4">
+
+                </div>
+                <div class="col-md-8">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="container modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
     <div class="row">
