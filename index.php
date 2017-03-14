@@ -33,7 +33,7 @@ session_start();
     </button>
 </div>
 <div class="container modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <a href="#" data-dismiss="modal">Close</a>
     <div class="row">
         <div class="col-md-4 col-md-offset-4">
             <div class="module form-module">
