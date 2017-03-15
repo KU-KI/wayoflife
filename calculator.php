@@ -10,17 +10,17 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
                 <form method="post">
                     <div class="form-group">
                         <label for="vyska">Výška</label>
-                        <input type="number" class="form-control" id="vyska" placeholder="Výška" />
+                        <input type="number" class="form-control" id="vyska" name="vyska" placeholder="Výška" />
                     </div>
                     <div class="form-group">
                         <label for="vaha">Váha</label>
-                        <input type="number" class="form-control" id="vaha" placeholder="Váha" />
+                        <input type="number" class="form-control" id="vaha" name="vaha" placeholder="Váha" />
                     </div>
                     <input type="submit" name="submit" value="Vypočítať" class="btn btn-default" />
                 </form>
             </div>
             <div class="col-md-8">
-                Tvoje BMI je <?php echo $vysledok;?>
+                <?php if (isset($_POST['submit']) AND $vysledok != NULL){ ?> Tvoje BMI je <?php echo $vysledok;?> <?php } ?>
             </div>
         </div>
     </div>
