@@ -24,8 +24,10 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
                           $zaokruhlenie=round($vysledok, 1); 
                 ?>
                 <div class="row">
-                    <div class="col-md-12 text-center vysledok_bmi">
-                        <?php  echo $zaokruhlenie; ?>
+                    <div class="col-md-12 text-center">
+                        <div class="vysledok_bmi"> 
+                            <?php  echo $zaokruhlenie; ?>>
+                        </div>
                     </div>
                 </div>
                 <?php } ?>
