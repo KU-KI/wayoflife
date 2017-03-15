@@ -16,7 +16,7 @@ include_once 'core/calculator.php';
                         <label for="vaha">Váha</label>
                         <input type="number" class="form-control" id="vaha" placeholder="Váha" />
                     </div>
-                    <button type="submit" class="btn btn-default">Vypočítať</button>
+                    <input type="submit" name="submit" value="Vypočítať" class="btn btn-default" />
                 </form>
             </div>
             <div class="col-md-8">
