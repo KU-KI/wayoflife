@@ -64,7 +64,7 @@ else: header("Location: /"); endif ?>
                 <li>
                     <a href="calculator.php">
                         <i class="ti-user"></i>
-                        <p>BMI kalkulačka</p>
+                        <p>BMI kalkulačka <?php echo$_SERVER['REQUEST_URI']; ?></p>
                     </a>
                 </li>
                 <li>
