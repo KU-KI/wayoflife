@@ -55,16 +55,16 @@ else: header("Location: /"); endif ?>
             </div>
 
             <ul class="nav">
-                <li class="active">
+                <li <?php if($_SERVER['REQUEST_URI']=='/dashboard.php'){echo' class="active"';}?>>
                     <a href="/">
                         <i class="ti-panel"></i>
                         <p>Domov</p>
                     </a>
                 </li>
-                <li>
+                <li <?php if($_SERVER['REQUEST_URI']=='/calculator.php'){echo' class="active"';}?>>
                     <a href="calculator.php">
                         <i class="ti-user"></i>
-                        <p>BMI kalkulačka <?php echo$_SERVER['REQUEST_URI']; ?></p>
+                        <p>BMI kalkulačka</p>
                     </a>
                 </li>
                 <li>
