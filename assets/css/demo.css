@@ -68,3 +68,9 @@
 .table-upgrade td:nth-child(3){
     text-align: center;
 }
+.vysledok_bmi {
+    border:5px solid #27ae60;
+    width:250px;
+    height:250px;
+    font-size:50px;
+}
