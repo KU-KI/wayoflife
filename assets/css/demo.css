@@ -69,10 +69,21 @@
     text-align: center;
 }
 .vysledok_bmi {
-    border:5px solid #27ae60;
     width:250px;
     height:250px;
     font-size:50px;
     line-height:250px;
     margin:0 auto;
+}
+.vysledok_bmi.bmi1{
+    border:5px solid #f1c40f;
+}
+.vysledok_bmi.bmi2{
+    border:5px solid #2ecc71;
+}
+.vysledok_bmi.bmi3{
+    border:5px solid #e74c3c;
+}
+.vysledok_bmi.bmi4{
+    border:5px solid #c0392b;
 }
