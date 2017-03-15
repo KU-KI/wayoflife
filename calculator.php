@@ -21,12 +21,13 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
             </div>
             <div class="col-md-8">
                 <?php if (isset($_POST['submit']) AND $vysledok != NULL){
-                          $zaokruhlenie=round($vysledok, 1);
-                          echo $zaokruhlenie;
+                          $zaokruhlenie=round($vysledok, 1); 
                 ?>
-
-                
-                
+                <div class="row">
+                    <div class="col-md-12 text-center vysledok_bmi">
+                        <?php  echo $zaokruhlenie; ?>
+                    </div>
+                </div>
                 <?php } ?>
             </div>
         </div>
