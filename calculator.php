@@ -1,6 +1,6 @@
-﻿<?php 
-include_once 'template/header.php'; 
-include_once 'core/calculator.php';  
+﻿<?php
+include_once 'template/header.php';
+if (isset($_POST['submit'])){{include_once 'core/calculator.php';}
 ?>
 
 <div class="content">
