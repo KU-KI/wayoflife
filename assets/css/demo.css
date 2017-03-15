@@ -76,14 +76,14 @@
     margin:0 auto;
 }
 .vysledok_bmi.bmi1{
-    border:5px solid #f1c40f;
+    border:10px solid #f1c40f;
 }
 .vysledok_bmi.bmi2{
-    border:5px solid #2ecc71;
+    border:10px solid #2ecc71;
 }
 .vysledok_bmi.bmi3{
-    border:5px solid #e74c3c;
+    border:10px solid #e74c3c;
 }
 .vysledok_bmi.bmi4{
-    border:5px solid #c0392b;
+    border:10px solid #c0392b;
 }
