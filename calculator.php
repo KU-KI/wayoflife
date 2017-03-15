@@ -20,7 +20,7 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
                 </form>
             </div>
             <div class="col-md-8">
-                Tvoje BMI je <?php echo $vysledok;?>
+                <?phpif (isset($_POST['submit']) & isset($vysledok)){ ?> Tvoje BMI je <?php echo $vysledok;?> <?php } ?>
             </div>
         </div>
     </div>
