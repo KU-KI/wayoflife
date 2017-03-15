@@ -1,6 +1,7 @@
 <?php
 session_start(); 
 ?>
+
 <?php if ($_SESSION['FBID'] OR $_SESSION['FULLNAME']): header("Location: /dashboard.php"); else: endif ?>
 <!DOCTYPE html>
 <html lang="sk">
