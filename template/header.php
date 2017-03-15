@@ -62,7 +62,7 @@ else: header("Location: /"); endif ?>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="calculator.php">
                         <i class="ti-user"></i>
                         <p>BMI kalkulačka</p>
                     </a>
