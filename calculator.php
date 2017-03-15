@@ -1,4 +1,7 @@
-﻿<?php include_once 'template/header.php'; ?>
+﻿<?php 
+include_once 'template/header.php'; 
+include_once 'core/calculator.php';  
+?>
 
 <div class="content">
     <div class="container-fluid">
