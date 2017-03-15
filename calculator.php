@@ -21,7 +21,7 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
             </div>
             <div class="col-md-8">
                 <?php if (isset($_POST['submit']) AND $vysledok != NULL){
-                          $zaokruhlenie=round($vysledok, 2);
+                          $zaokruhlenie=round($vysledok, 1);
                           echo $zaokruhlenie;
                 ?>
 
