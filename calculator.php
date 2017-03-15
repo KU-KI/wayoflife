@@ -25,7 +25,7 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
                 ?>
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <div class="vysledok_bmi <?php if($zaokruhlenie < 18,5 ){echo 'bmi1';} elseif($zaokruhlenie >18,5 and $zaokruhlenie < 25){echo 'bmi2';} ?>">
+                        <div class="vysledok_bmi <?php if($zaokruhlenie < 18,5 ){echo 'bmi1';} elseif($zaokruhlenie >18,5 and $zaokruhlenie < 25){echo 'bmi2';}else{echo '2';} ?>">
                             <?php  echo $zaokruhlenie; ?>
                         </div>
                     </div>
