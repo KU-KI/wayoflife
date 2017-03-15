@@ -56,15 +56,15 @@ else: header("Location: /"); endif ?>
 
             <ul class="nav">
                 <li class="active">
-                    <a href="#">
+                    <a href="/">
                         <i class="ti-panel"></i>
-                        <p>Dashboard</p>
+                        <p>Domov</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <i class="ti-user"></i>
-                        <p>User Profile</p>
+                        <p>BMI kalkulačka</p>
                     </a>
                 </li>
                 <li>
