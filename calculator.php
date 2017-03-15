@@ -26,7 +26,7 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <div class="vysledok_bmi"> 
-                            <?php  echo $zaokruhlenie; ?>>
+                            <?php  echo $zaokruhlenie; ?>
                         </div>
                     </div>
                 </div>
