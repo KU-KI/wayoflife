@@ -60,9 +60,7 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
                     </thead>
                     <tbody>
                         <tr>
-                            <td>
-                                <18></18>
-                            </td>
+                            <td>18 a menej</td>
                             <td>Podváha</td>
                         </tr>
                         <tr>
@@ -83,10 +81,7 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
                             <td>Obezita 3.stupňa</td>
                         </tr>
                         <tr>
-                            <td>
-                                40
-                                < />
-                            </td>
+                            <td>40 a viactd>
                             <td>Ťažká obezita</td>
                         </tr>
                     </tbody>
