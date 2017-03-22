@@ -27,9 +27,8 @@
     <Content Include="assets\img\1.jpg" />
     <Content Include="assets\img\2.jpg" />
     <Content Include="assets\img\3.jpg" />
-    <Content Include="assets\img\bad BMI.jpg" />
-    <Content Include="assets\img\bmi ok.jpg" />
-    <Content Include="assets\img\bmicko table  kopie.png" />
+    <Content Include="assets\img\bad_BMI.jpg" />
+    <Content Include="assets\img\bmi_ok.jpg" />
     <Content Include="assets\img\slider.jpg" />
     <Content Include="assets\js\owl.carousel.js" />
   </ItemGroup>
