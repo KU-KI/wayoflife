@@ -53,8 +53,7 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
 <div class="container">
     <div class="row">
         <div class="col-xs-12">
-            <div class="table-responsive">
-                <table summary="This table shows how to create responsive tables using Bootstrap's default functionality" class="table table-bordered table-hover">
+                <table class="table table-bordered table-hover">
 
                     <thead>
                         <tr>
@@ -99,7 +98,6 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
                         <tr></tr>
                     </tfoot>
                 </table>
-            </div><!--end of .table-responsive-->
         </div>
     </div>
 </div>
