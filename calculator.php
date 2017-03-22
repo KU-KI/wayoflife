@@ -20,7 +20,21 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
                 </form>
             </div>
             <div class="col-md-8">
-                <?php if (isset($_POST['submit']) AND $vysledok != NULL){ ?> Tvoje BMI je <?php echo $vysledok;?> <?php } ?>
+                <?php if (isset($_POST['submit']) AND $vysledok != NULL){
+                          $zaokruhlenie=round($vysledok, 1); 
+                ?>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="vysledok_bmi <?php if($zaokruhlenie < 18.5 ){echo 'bmi1';} 
+                                                       elseif($zaokruhlenie >18.5 and $zaokruhlenie < 25){echo 'bmi2';}
+                                                       elseif($zaokruhlenie >25 and $zaokruhlenie < 30){echo 'bmi3';}
+                                                       elseif($zaokruhlenie >30){echo 'bmi4';}
+                                                       else{}?>">
+                            <?php  echo $zaokruhlenie; ?>
+                        </div>
+                    </div>
+                </div>
+                <?php } ?>
             </div>
         </div>
     </div>

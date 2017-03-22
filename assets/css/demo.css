@@ -68,3 +68,22 @@
 .table-upgrade td:nth-child(3){
     text-align: center;
 }
+.vysledok_bmi {
+    width:250px;
+    height:250px;
+    font-size:50px;
+    line-height:240px;
+    margin:0 auto;
+}
+.vysledok_bmi.bmi1{
+    border:10px solid #f1c40f;
+}
+.vysledok_bmi.bmi2{
+    border:10px solid #2ecc71;
+}
+.vysledok_bmi.bmi3{
+    border:10px solid #e74c3c;
+}
+.vysledok_bmi.bmi4{
+    border:10px solid #c0392b;
+}
