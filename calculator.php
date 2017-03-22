@@ -64,7 +64,6 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
                                 <18></18>
                             </td>
                             <td>Podváha</td>
-
                         </tr>
                         <tr>
                             <td>18-25</td>
