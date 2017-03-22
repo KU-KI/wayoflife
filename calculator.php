@@ -40,10 +40,10 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
                       $zaokruhlenie=round($vysledok, 1);
             ?>
                 <div class="col-md-4 text-center">
-                    <?php if($zaokruhlenie < 18.5 ){echo '<img style= width 100% src="assets/img/bad_BMI.jpg"/>' ;}
-                          elseif($zaokruhlenie >18.5 and $zaokruhlenie < 25){echo '<img style= width 100% src="assets/img/bmi_ok.jpg"/>';}
-                          elseif($zaokruhlenie >25 and $zaokruhlenie < 30){echo '<img style= width 100% src="assets/img/bad_BMI.jpg"/>';}
-                          elseif($zaokruhlenie >30){echo '<img style= width 100% src="assets/img/bad_BMI.jpg"/>';}
+                    <?php if($zaokruhlenie < 18.5 ){echo '<img style="width: 100%" src="assets/img/bad_BMI.jpg"/>' ;}
+                          elseif($zaokruhlenie >18.5 and $zaokruhlenie < 25){echo '<img style="width 100%" src="assets/img/bmi_ok.jpg"/>';}
+                          elseif($zaokruhlenie >25 and $zaokruhlenie < 30){echo '<img style="width: 100%" src="assets/img/bad_BMI.jpg"/>';}
+                          elseif($zaokruhlenie >30){echo '<img style=" width: 100%" src="assets/img/bad_BMI.jpg"/>';}
                           else{}
                     ?>  
                 </div>
