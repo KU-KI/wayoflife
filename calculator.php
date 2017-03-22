@@ -47,7 +47,7 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
                           else{}
                     ?>  
                 </div>
-            <div class="col-md-9"></div>
+            <div class="col-md-9"> <p>AXXXXAXAXAXAXXAXAXXAXAXAXX</p></div>
             <?php } ?>
         </div>
     </div>
