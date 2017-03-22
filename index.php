@@ -10,7 +10,7 @@ session_start();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Way Of Life</title>
+    <title>Way Of Life :)</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
@@ -72,7 +72,7 @@ session_start();
                     <div class="info-text-in">Kontroluj štatistiky, koľko si pribral, koľko si schudol a ako sa za celé obdobie zmenila tvoja váha! To všetko na jednom mieste!</div>
                 </div>
                 <div class="col-md-3 text-center login-side">
-                    <h2>Way of life</h2>
+                    <h2>Way Of Life</h2>
                     <button type="button" class="btn btn-default btn-login" data-toggle="modal" data-target="#myModal">
                         Prihlásiť sa
                     </button>

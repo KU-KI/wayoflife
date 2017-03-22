@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 include_once 'template/header.php';
 if (isset($_POST['submit'])){include_once 'core/calculator.php';}
 ?>
@@ -36,6 +36,24 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
                 </div>
                 <?php } ?>
             </div>
+            <?php if (isset($_POST['submit']) AND $vysledok != NULL){
+                      $zaokruhlenie=round($vysledok, 1);
+            ?>
+                <div class="col-md-3 text-center">
+                    <?php if($zaokruhlenie < 18.5 ){echo '<img style="width: 100%" src="assets/img/bad_BMI.jpg"/>' ;}
+                          elseif($zaokruhlenie >18.5 and $zaokruhlenie < 25){echo '<img style="width: 100%" src="assets/img/bmi_ok.jpg"/>';}
+                          elseif($zaokruhlenie >25 and $zaokruhlenie < 30){echo '<img style="width: 100%" src="assets/img/bad_BMI.jpg"/>';}
+                          elseif($zaokruhlenie >30){echo '<img style=" width: 100%" src="assets/img/bad_BMI.jpg"/>';}
+                          else{}
+                    ?>  
+                </div>
+            <div class="col-md-9"> <?php if($zaokruhlenie < 18.5 ){echo 'Máš podváhu' ;}
+                                         elseif($zaokruhlenie >18.5 and $zaokruhlenie < 25){echo 'Máte výborne BMI';}
+                                         elseif($zaokruhlenie >25 and $zaokruhlenie < 30){echo 'Máš slabú nadváhu>';}
+                                         elseif($zaokruhlenie >30){echo 'Máš obezitu';}
+                                         else{}
+                                   ?></div>
+            <?php } ?>
         </div>
     </div>
 </div>
