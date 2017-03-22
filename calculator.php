@@ -41,13 +41,18 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
             ?>
                 <div class="col-md-3 text-center">
                     <?php if($zaokruhlenie < 18.5 ){echo '<img style="width: 100%" src="assets/img/bad_BMI.jpg"/>' ;}
-                          elseif($zaokruhlenie >18.5 and $zaokruhlenie < 25){echo '<img style="width 100%" src="assets/img/bmi_ok.jpg"/>';}
+                          elseif($zaokruhlenie >18.5 and $zaokruhlenie < 25){echo '<img style="width: 100%" src="assets/img/bmi_ok.jpg"/>';}
                           elseif($zaokruhlenie >25 and $zaokruhlenie < 30){echo '<img style="width: 100%" src="assets/img/bad_BMI.jpg"/>';}
                           elseif($zaokruhlenie >30){echo '<img style=" width: 100%" src="assets/img/bad_BMI.jpg"/>';}
                           else{}
                     ?>  
                 </div>
-            <div class="col-md-9"> <p>AXXXXAXAXAXAXXAXAXXAXAXAXX</p></div>
+            <div class="col-md-9"> <?php if($zaokruhlenie < 18.5 ){echo 'FF' ;}
+                                         elseif($zaokruhlenie >18.5 and $zaokruhlenie < 25){echo 'WP';}
+                                         elseif($zaokruhlenie >25 and $zaokruhlenie < 30){echo 'FF>';}
+                                         elseif($zaokruhlenie >30){echo 'FF';}
+                                         else{}
+                                   ?></div>
             <?php } ?>
         </div>
     </div>
