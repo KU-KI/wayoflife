@@ -47,12 +47,63 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
                           else{}
                     ?>  
                 </div>
-            <div class="col-md-9"> <?php if($zaokruhlenie < 18.5 ){echo 'Máš podváhu' ;}
-                                         elseif($zaokruhlenie >18.5 and $zaokruhlenie < 25){echo 'Máte výborne BMI';}
-                                         elseif($zaokruhlenie >25 and $zaokruhlenie < 30){echo 'Máš slabú nadváhu>';}
-                                         elseif($zaokruhlenie >30){echo 'Máš obezitu';}
-                                         else{}
-                                   ?></div>
+            <div class="col-md-9"> 
+<h2>Čo znamená Vaša hodnota BMI?</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="table-responsive">
+                <table summary="This table shows how to create responsive tables using Bootstrap's default functionality" class="table table-bordered table-hover">
+
+                    <thead>
+                        <tr>
+                            <th>Hodnota</th>
+                            <th>Čo to znamená?</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <18></18>
+                            </td>
+                            <td>Podváha</td>
+
+                        </tr>
+                        <tr>
+                            <td>18-25</td>
+                            <td>Normálna hodnota</td>
+                        </tr>
+                        <tr>
+                            <td>25-29.9</td>
+                            <td>Obezita 1. stupňa</td>
+                        </tr>
+                        <tr>
+                            <td>30-34.9</td>
+                            <td>Obezita 2. stupňa</td>
+
+                        </tr>
+                        <tr>
+                            <td>35-39.9</td>
+                            <td>Obezita 3.stupňa</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                40
+                                < />
+                            </td>
+                            <td>Ťažká obezita</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr></tr>
+                    </tfoot>
+                </table>
+            </div><!--end of .table-responsive-->
+        </div>
+    </div>
+</div>
+</div>
             <?php } ?>
         </div>
     </div>
