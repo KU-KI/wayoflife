@@ -35,5 +35,6 @@
     <Folder Include="assets\css\" />
     <Folder Include="assets\img\" />
     <Folder Include="assets\js\" />
+    <Folder Include="core\" />
   </ItemGroup>
 </Project>
