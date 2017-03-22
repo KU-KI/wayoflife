@@ -47,10 +47,10 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
                           else{}
                     ?>  
                 </div>
-            <div class="col-md-9"> <?php if($zaokruhlenie < 18.5 ){echo 'FF' ;}
-                                         elseif($zaokruhlenie >18.5 and $zaokruhlenie < 25){echo 'WP';}
-                                         elseif($zaokruhlenie >25 and $zaokruhlenie < 30){echo 'FF>';}
-                                         elseif($zaokruhlenie >30){echo 'FF';}
+            <div class="col-md-9"> <?php if($zaokruhlenie < 18.5 ){echo 'Máš podváhu' ;}
+                                         elseif($zaokruhlenie >18.5 and $zaokruhlenie < 25){echo 'Máte výborne BMI';}
+                                         elseif($zaokruhlenie >25 and $zaokruhlenie < 30){echo 'Máš slabú nadváhu>';}
+                                         elseif($zaokruhlenie >30){echo 'Máš obezitu';}
                                          else{}
                                    ?></div>
             <?php } ?>
