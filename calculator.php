@@ -50,9 +50,6 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
             <div class="col-md-9"> 
 <h2>Čo znamená Vaša hodnota BMI?</h2>
 
-<div class="container">
-    <div class="row">
-        <div class="col-xs-12">
                 <table class="table table-bordered table-hover">
 
                     <thead>
@@ -98,9 +95,7 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
                         <tr></tr>
                     </tfoot>
                 </table>
-        </div>
-    </div>
-</div>
+
 </div>
             <?php } ?>
         </div>
