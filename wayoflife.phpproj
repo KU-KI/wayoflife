@@ -18,6 +18,7 @@
   <ItemGroup>
     <Compile Include="calculator.php" />
     <Compile Include="core\calculator.php" />
+    <Compile Include="profile.php" />
     <Compile Include="wayoflife.phpproj" />
   </ItemGroup>
   <ItemGroup>

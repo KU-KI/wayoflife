@@ -67,10 +67,10 @@ else: header("Location: /"); endif ?>
                         <p>BMI kalkulačka</p>
                     </a>
                 </li>
-                <li>
-                    <a href="#">
-                        <i class="ti-view-list-alt"></i>
-                        <p>Table List</p>
+                <li <?php if($_SERVER['REQUEST_URI']=='/profile.php'){echo' class="active"';}?>>
+                    <a href="profile.php">
+                        <i class="ti-panel"></i>
+                        <p>Profil</p>
                     </a>
                 </li>
             </ul>
