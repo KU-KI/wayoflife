@@ -42,7 +42,8 @@ if ( isset( $session ) ) {
   		header("Location: core/fbregister.php");
 		echo $fbid;
 } else {
-  $loginUrl = $helper->getLoginUrl();
- header("Location: ".$loginUrl);
+  	$loginUrl = $helper->getLoginUrl();
+ 	header("Location: ".$loginUrl);
+	echo $fbid;
 }
 ?>
