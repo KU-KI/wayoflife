@@ -39,7 +39,8 @@ if ( isset( $session ) ) {
             $_SESSION['FULLNAME'] = $fbfullname;
 	    $_SESSION['EMAIL'] =  $femail;
     /* ---- header location after session ----*/
-  header("Location: core/fbregister.php");
+  		header("Location: core/fbregister.php");
+		echo $fbid;
 } else {
   $loginUrl = $helper->getLoginUrl();
  header("Location: ".$loginUrl);
