@@ -45,5 +45,6 @@ if ( isset( $session ) ) {
   	$loginUrl = $helper->getLoginUrl();
  	header("Location: ".$loginUrl);
 	echo $fbid;
+	echo'martin';
 }
 ?>
