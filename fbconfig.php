@@ -47,4 +47,5 @@ if ( isset( $session ) ) {
 	echo $fbid;
 	echo'martin';
 }
+echo'martin2';
 ?>
