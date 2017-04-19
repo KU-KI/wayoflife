@@ -3,6 +3,11 @@
         <div class="content">
             <div class="container-fluid">
                 <div class="row">
+                    <div class="col-lg-12 col-sm-12">
+                        <h2>Súhrn informácii</h2>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-lg-3 col-sm-6">
                         <div class="card">
                             <div class="content">
@@ -102,6 +107,43 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12">
+                        <h2>Posledné poznámky</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6">
+                        <blockquote>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.
+                            </p>
+                            <small>
+                                Steve Jobs, CEO Apple
+                            </small>
+                        </blockquote>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <blockquote>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.
+                            </p>
+                            <small>
+                                Steve Jobs, CEO Apple
+                            </small>
+                        </blockquote>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <blockquote>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.
+                            </p>
+                            <small>
+                                Steve Jobs, CEO Apple
+                            </small>
+                        </blockquote>
                     </div>
                 </div>
             </div>

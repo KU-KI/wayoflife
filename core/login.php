@@ -21,11 +21,13 @@ if (isset($_POST['submit'])) {
 		if (empty($check)) {
                    header("location: /");	
 		} else {
-                    $check = mysql_query("select Ffname from Users where Femail='$email'");
+                    $check = mysql_query("select * from Users where Femail='$email'");
                     $row = mysql_fetch_array($check);
                     $username = $row['Ffname'];
+                    $user_id = $row['UID'];
                     
-                    $_SESSION['FULLNAME']=$username; 
+                    $_SESSION['FULLNAME']=$username;
+                    $_SESSION['id']=$user_id;
                     header("location: /dashboard.php?f=1");
 		}
 	}	

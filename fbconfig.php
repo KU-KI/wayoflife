@@ -14,28 +14,15 @@ use Facebook\Entities\AccessToken;
 use Facebook\HttpClients\FacebookCurlHttpClient;
 use Facebook\HttpClients\FacebookHttpable;
 // init app with app id and secret
-FacebookSession::setDefaultApplication( '1827407794185012','dbc0b5b9c1686f3da9dd060f882cc7f8' );
+FacebookSession::setDefaultApplication( '286285425144912','8f8665367aaa306acdbeb15c1664d7d2' );
 // login helper with redirect_uri
-    $helper = new FacebookRedirectLoginHelper('http://wayoflife.azurewebsites.net/fbconfig.php' );
+    $helper = new FacebookRedirectLoginHelper('http://school.getiton.sk/fbconfig.php' );
 try {
   $session = $helper->getSessionFromRedirect();
 } catch( FacebookRequestException $ex ) {
   // When Facebook returns an error
 } catch( Exception $ex ) {
   // When validation fails or other local issues
-}
-if (! isset($accessToken)) {
-  if ($helper->getError()) {
-    header('HTTP/1.0 401 Unauthorized');
-    echo "Error: " . $helper->getError() . "\n";
-    echo "Error Code: " . $helper->getErrorCode() . "\n";
-    echo "Error Reason: " . $helper->getErrorReason() . "\n";
-    echo "Error Description: " . $helper->getErrorDescription() . "\n";
-  } else {
-    header('HTTP/1.0 400 Bad Request');
-    echo 'Bad request';
-  }
-  exit;
 }
 // see if we have a session
 if ( isset( $session ) ) {
@@ -49,16 +36,12 @@ if ( isset( $session ) ) {
 	    $femail = $graphObject->getProperty('email');    // To Get Facebook email ID
 	/* ---- Session Variables -----*/
 	    $_SESSION['FBID'] = $fbid;           
-            $_SESSION['FULLNAME'] = $fbfullname;
+        $_SESSION['FULLNAME'] = $fbfullname;
 	    $_SESSION['EMAIL'] =  $femail;
     /* ---- header location after session ----*/
-  		header("Location: core/fbregister.php");
-		echo $fbid;
+    header("Location: core/fbregister.php");
 } else {
-  	$loginUrl = $helper->getLoginUrl();
- 	header("Location: ".$loginUrl);
-	echo $fbid;
-	echo'martin';
+  $loginUrl = $helper->getLoginUrl();
+ header("Location: ".$loginUrl);
 }
-echo'martin2';
 ?>

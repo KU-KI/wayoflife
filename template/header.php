@@ -1,8 +1,13 @@
 <?php
-session_start(); 
+session_start();
 ?>
 <?php if ($_SESSION['FBID'] OR $_SESSION['FULLNAME']):  
-else: header("Location: /"); endif ?>
+else: header("Location: /"); endif;
+include 'core/dbconfig.php';
+$id=$_SESSION['id'];
+$check = mysql_query("select * from Users where UID='$id'");
+$row = mysql_fetch_array($check);
+$username = $row['Ffname'];?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -55,7 +60,7 @@ else: header("Location: /"); endif ?>
             </div>
 
             <ul class="nav">
-                <li <?php if($_SERVER['REQUEST_URI']=='/dashboard.php'){echo' class="active"';}?>>
+                <li <?php if($_SERVER['REQUEST_URI']=='/dashboard.php' OR isset($_GET['f'])){echo' class="active"';}?>>
                     <a href="/">
                         <i class="ti-panel"></i>
                         <p>Domov</p>
@@ -73,6 +78,12 @@ else: header("Location: /"); endif ?>
                         <p>Profil</p>
                     </a>
                 </li>
+                <li <?php if($_SERVER['REQUEST_URI']=='/notes.php'){echo' class="active"';}?>>
+                    <a href="notes.php">
+                        <i class="ti-tablet"></i>
+                        <p>Poznámky</p>
+                    </a>
+                </li>
             </ul>
     	</div>
     </div>
@@ -87,14 +98,14 @@ else: header("Location: /"); endif ?>
                         <span class="icon-bar bar2"></span>
                         <span class="icon-bar bar3"></span>
                     </button>
-                    <div class="navbar-brand"><?php echo $_SESSION['FULLNAME']; ?></div>
+                    
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <a href="stats.php">
                                 <i class="ti-panel"></i>
-								<p>Stats</p>
+								<p>Štatistiky</p>
                             </a>
                         </li>
 			<li>

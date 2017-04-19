@@ -7,9 +7,17 @@ $fuid=$_SESSION['FBID'];
 
 $check = mysql_query("select * from Users where Fuid='$fuid'");
 $check = mysql_num_rows($check);
+
 if (empty($check)): 
-else: 
-    header("Location: /"); 
+else:
+    $check = mysql_query("select * from Users where Fuid='$fuid'");
+    $row = mysql_fetch_array($check);
+    $username = $row['Ffname'];
+    $user_id = $row['UID'];
+
+    $_SESSION['FULLNAME']=$username;
+    $_SESSION['id']=$user_id;
+    header("location: /dashboard.php?f=1");
 endif 
 ?>
 <!DOCTYPE html>

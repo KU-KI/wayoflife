@@ -6,15 +6,15 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
 <div class="content">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 <?php if (!isset($_POST['submit'])){echo'col-md-offset-4';}?>">
                 <form method="post">
                     <div class="form-group">
                         <label for="vyska">Výška</label>
-                        <input type="number" class="form-control" id="vyska" name="vyska" placeholder="Výška" />
+                        <input type="number" class="form-control" id="vyska" name="vyska" placeholder="Výška" value="<?php echo $vyska*100;?>"/>
                     </div>
                     <div class="form-group">
                         <label for="vaha">Váha</label>
-                        <input type="number" class="form-control" id="vaha" name="vaha" placeholder="Váha" />
+                        <input type="number" class="form-control" id="vaha" name="vaha" placeholder="Váha" value="<?php echo $vaha*1;?>" />
                     </div>
                     <input type="submit" name="submit" value="Vypočítať" class="btn btn-default" />
                 </form>
@@ -39,16 +39,8 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
             <?php if (isset($_POST['submit']) AND $vysledok != NULL){
                       $zaokruhlenie=round($vysledok, 1);
             ?>
-                <div class="col-md-3 text-center">
-                    <?php if($zaokruhlenie < 18.5 ){echo '<img style="width: 100%" src="assets/img/bad_BMI.jpg"/>' ;}
-                          elseif($zaokruhlenie >18.5 and $zaokruhlenie < 25){echo '<img style="width: 100%" src="assets/img/bmi_ok.jpg"/>';}
-                          elseif($zaokruhlenie >25 and $zaokruhlenie < 30){echo '<img style="width: 100%" src="assets/img/bad_BMI.jpg"/>';}
-                          elseif($zaokruhlenie >30){echo '<img style=" width: 100%" src="assets/img/bad_BMI.jpg"/>';}
-                          else{}
-                    ?>  
-                </div>
-            <div class="col-md-9"> 
-<h2>Čo znamená Vaša hodnota BMI?</h2>
+            <div class="col-md-12">
+                <h2>Čo znamená Vaša hodnota BMI?</h2>
 
                 <table class="table table-bordered table-hover">
 
@@ -90,7 +82,7 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
                     </tfoot>
                 </table>
 
-</div>
+                </div>
             <?php } ?>
         </div>
     </div>
