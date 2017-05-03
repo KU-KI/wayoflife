@@ -2,7 +2,10 @@
 include_once 'template/header.php';
 if (isset($_POST['submit'])){include_once 'core/calculator.php';}
 ?>
-
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
 <table class="t1">
 	<tbody>
 		<tr>
@@ -1583,4 +1586,9 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
 		</tr>
 	</tbody>
 </table>
+		                    </div>
+          
+        </div>
+    </div>
+</div>
 <?php include_once 'template/footer.php'; ?>
