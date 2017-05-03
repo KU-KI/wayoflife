@@ -58,7 +58,7 @@
                                     </div>
                                     <div class="col-xs-7">
                                         <div class="numbers">
-                                            <p>Počet jedálničkov</p>
+                                            <p>Jedálničkov</p>
                                             23
                                         </div>
                                     </div>
