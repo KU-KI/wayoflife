@@ -19,17 +19,12 @@
                                     </div>
                                     <div class="col-xs-7">
                                         <div class="numbers">
-                                            <p>Capacity</p>
-                                            105GB
+                                            <p>Váha</p>
+                                            100KG
                                         </div>
                                     </div>
                                 </div>
-                                <div class="footer">
-                                    <hr />
-                                    <div class="stats">
-                                        <i class="ti-reload"></i> Updated now
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -44,15 +39,9 @@
                                     </div>
                                     <div class="col-xs-7">
                                         <div class="numbers">
-                                            <p>Revenue</p>
-                                            $1,345
+                                            <p>Priemerne</p>
+                                            95 KG
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="footer">
-                                    <hr />
-                                    <div class="stats">
-                                        <i class="ti-calendar"></i> Last day
                                     </div>
                                 </div>
                             </div>
@@ -69,15 +58,9 @@
                                     </div>
                                     <div class="col-xs-7">
                                         <div class="numbers">
-                                            <p>Errors</p>
+                                            <p>Počet jedálničkov</p>
                                             23
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="footer">
-                                    <hr />
-                                    <div class="stats">
-                                        <i class="ti-timer"></i> In the last hour
                                     </div>
                                 </div>
                             </div>
@@ -94,17 +77,11 @@
                                     </div>
                                     <div class="col-xs-7">
                                         <div class="numbers">
-                                            <p>Followers</p>
+                                            <p>Počet dní</p>
                                             +45
                                         </div>
                                     </div>
-                                </div>
-                                <div class="footer">
-                                    <hr />
-                                    <div class="stats">
-                                        <i class="ti-reload"></i> Updated now
                                     </div>
-                                </div>
                             </div>
                         </div>
                     </div>
