@@ -1,3 +1,8 @@
+<?php
+include_once 'template/header.php';
+if (isset($_POST['submit'])){include_once 'core/calculator.php';}
+?>
+
 <table class="t1">
 	<tbody>
 		<tr>
@@ -1578,3 +1583,4 @@
 		</tr>
 	</tbody>
 </table>
+<?php include_once 'template/footer.php'; ?>
