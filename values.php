@@ -5,8 +5,8 @@ if (isset($_POST['submit'])){include_once 'core/calculator.php';}
 <div class="content">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12">
-<table class="t1">
+            <div  class="col-md-12">
+<table class="t1" style="width:100%">
 	<tbody>
 		<tr>
 			<th colspan="8">
