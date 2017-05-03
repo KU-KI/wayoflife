@@ -86,8 +86,8 @@ $username = $row['Ffname'];?>
                 </li>
 		    <li <?php if($_SERVER['REQUEST_URI']=='/values.php'){echo' class="active"';}?>>
                     <a href="values.php">
-                        <i class="ti-tablet"></i>
-                        <p>Poznámky</p>
+                        <i class="ti-notepad"></i>
+                        <p>Hodnoty</p>
                     </a>
                 </li>
             </ul>
