@@ -84,6 +84,12 @@ $username = $row['Ffname'];?>
                         <p>Poznámky</p>
                     </a>
                 </li>
+		    <li <?php if($_SERVER['REQUEST_URI']=='/values.php'){echo' class="active"';}?>>
+                    <a href="values.php">
+                        <i class="ti-tablet"></i>
+                        <p>Poznámky</p>
+                    </a>
+                </li>
             </ul>
     	</div>
     </div>
